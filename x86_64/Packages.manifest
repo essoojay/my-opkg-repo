@@ -1,37 +1,3 @@
-Package: 3proxy-servers
-Version: 0.9-devel
-Depends: libc, 3proxy
-Source: /home/neo/wrt-project/tes/custom-feeds/3proxy-openwrt
-SourceName: 3proxy-servers
-License: GPLv2
-LicenseFiles: LICENSE
-Section: opt
-SourceDateEpoch: 1593325753
-Maintainer: muziling <lls924@gmail.com>
-Architecture: x86_64
-Installed-Size: 100778
-Filename: 3proxy-servers_0.9-devel_x86_64.ipk
-Size: 101535
-SHA256sum: 9e8c3077c2ae85955d2a7840164308078df513e4a11f0f9eb6a9f3b9fccef8e2
-Description:  3proxy addional servers
-
-Package: 3proxy
-Version: 0.9-devel
-Depends: libc, libpthread, libopenssl1.1
-Source: /home/neo/wrt-project/tes/custom-feeds/3proxy-openwrt
-SourceName: 3proxy
-License: GPLv2
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1593325753
-Maintainer: muziling <lls924@gmail.com>
-Architecture: x86_64
-Installed-Size: 111230
-Filename: 3proxy_0.9-devel_x86_64.ipk
-Size: 111992
-SHA256sum: ee6ecec707f33a88d32c73b79015e6a004c908166fe939101ddb2fb481062bb5
-Description:  3APA3A 3proxy tiny proxy servers
-
 Package: adbyby
 Version: 2.7-20200315
 Depends: libc
@@ -144,20 +110,6 @@ Size: 3829
 SHA256sum: 2fa0ca09dc4c33665db0bac58ffd4c192241a79a49c7c35ad614c763bc086b93
 Description:  Tunneling SSH through HTTP proxies.
 
-Package: cpulimit
-Version: 0.2-1
-Depends: libc
-Source: /home/neo/wrt-project/custom-feeds/lain/cpulimit
-SourceName: cpulimit
-Section: utils
-SourceDateEpoch: 1637861111
-Architecture: x86_64
-Installed-Size: 7498
-Filename: cpulimit_0.2-1_x86_64.ipk
-Size: 8219
-SHA256sum: 205abc2236f3b6fccca93d6f50276c32264043c4176c725df3a3fd8ca1cdbcac
-Description:  cpulimit
-
 Package: dns-over-https
 Version: 2.3.0-211024.32495
 Depends: libc
@@ -192,17 +144,17 @@ SHA256sum: 65b66212a09831d255fb95f695eec1be61c3bc3215f078c70579d570481ea10b
 Description:  This is a utility to resolve DNS requests via a SOCKS5 tunnel and caches the answers.
 
 Package: hysteria
-Version: 0.8.6-1
+Version: 0.9.1-1
 Depends: libc
-Source: /home/neo/wrt-project/custom-feeds/lain/openwrt-passwall/hysteria
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/hysteria
 SourceName: hysteria
 Section: net
-SourceDateEpoch: 1637847123
+SourceDateEpoch: 1640359581
 Architecture: x86_64
-Installed-Size: 3773587
-Filename: hysteria_0.8.6-1_x86_64.ipk
-Size: 3775092
-SHA256sum: fe05e1c663f1eca16695892a550007e43741a4adecbdd2e48e8ff337c76028df
+Installed-Size: 4177310
+Filename: hysteria_0.9.1-1_x86_64.ipk
+Size: 4178859
+SHA256sum: 97ec95860ad54de8ee44a1d69a5e550ca00346010f164bdcdf83af7c22866769
 Description:  Hysteria is a feature-packed network utility optimized for networks of poor quality (e.g. satellite connections, congested public Wi-Fi, connecting from China to servers abroad)
 
 Package: ipt2socks
@@ -219,38 +171,6 @@ Size: 36912
 SHA256sum: d9f1d12144363b11a8da70495f0981f3f9fe7417197199f715be38c0387e005c
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
-Package: iptables-mod-ndpi
-Version: flow_info-26911075-3.4-1
-Depends: libc, iptables, iptables-mod-conntrack-extra, kmod-ipt-ndpi
-Source: /home/neo/wrt-project/tes/custom-feeds/ndpi-netfilter
-SourceName: iptables-mod-ndpi
-Section: net
-SourceDateEpoch: 1637776114
-Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Architecture: x86_64
-Installed-Size: 11408
-Filename: iptables-mod-ndpi_flow_info-26911075-3.4-1_x86_64.ipk
-Size: 12238
-SHA256sum: 095d1f444f3d60038d882c6ddc1cd0dadc821685588a93e4cfab691f8e09d220
-Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
-
-Package: lib3proxy
-Version: 0.9-devel
-Depends: libc, 3proxy
-Source: /home/neo/wrt-project/tes/custom-feeds/3proxy-openwrt
-SourceName: lib3proxy
-License: GPLv2
-LicenseFiles: LICENSE
-Section: opt
-SourceDateEpoch: 1593325753
-Maintainer: muziling <lls924@gmail.com>
-Architecture: x86_64
-Installed-Size: 58383
-Filename: lib3proxy_0.9-devel_x86_64.ipk
-Size: 59210
-SHA256sum: fdc109334de4d5d561007d6387ba816e10f0a09deaa16e84514d9742520ca243
-Description:  3proxy libraries
-
 Package: lua-maxminddb
 Version: 0.2-1
 Depends: libc, lua, libmaxminddb
@@ -266,23 +186,6 @@ Filename: lua-maxminddb_0.2-1_x86_64.ipk
 Size: 3225
 SHA256sum: 0880fb5229758b57fd644c56d85fe500181f1b48c8a30f5ec138621e903181c2
 Description:  libmaxminddb bindings for lua
-
-Package: luci-app-koolproxyR
-Version: 3.8.4-5-20200331
-Depends: libc, openssl-util, ipset, dnsmasq-full, iptables-mod-nat-extra, wget
-Source: /home/neo/wrt-project/custom-feeds/luci-app/luci-app-koolproxyR
-SourceName: luci-app-koolproxyR
-License: GPLv3
-LicenseFiles: LICENSE
-Section: luci
-SourceDateEpoch: 1637861111
-Maintainer: panda-mute
-Architecture: x86_64
-Installed-Size: 711389
-Filename: luci-app-koolproxyR_3.8.4-5-20200331_x86_64.ipk
-Size: 712484
-SHA256sum: 401a7e93b7fb278ce9ef5c12a59f6d1bef1225e268faee5622942d5f3750bd4a
-Description:  This package contains LuCI configuration pages for koolproxy.
 
 Package: microsocks
 Version: 1.0.2-2
@@ -455,88 +358,88 @@ SHA256sum: 6b061a4f05cef017c7d4732ed5e77ea0eede450064e7de8bff668360263082a7
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/shadowsocks-rust
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 2807675
-Filename: shadowsocks-rust-sslocal_1.12.4-1_x86_64.ipk
-Size: 2798893
-SHA256sum: a49e20840093ad739729c83c235405126d167116516f98f3dd08f12ff13c16bf
+Installed-Size: 2847496
+Filename: shadowsocks-rust-sslocal_1.12.5-1_x86_64.ipk
+Size: 2837210
+SHA256sum: 3ca9475eb1fd25b78ed3022c0b676daa06bb999b9fc7de7ebb1cfb98ad616eb7
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/shadowsocks-rust
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 1928468
-Filename: shadowsocks-rust-ssmanager_1.12.4-1_x86_64.ipk
-Size: 1921691
-SHA256sum: abd18f615145168582d93861b0c664b9bf39f6366bc85d674059a0eff7b4c23f
+Installed-Size: 1922616
+Filename: shadowsocks-rust-ssmanager_1.12.5-1_x86_64.ipk
+Size: 1916764
+SHA256sum: d754a7f7cde600f37e9834f24101ebd08af60b0e4c7f9d8ea4f907d5f9f0a6fc
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/shadowsocks-rust
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 1869819
-Filename: shadowsocks-rust-ssserver_1.12.4-1_x86_64.ipk
-Size: 1864000
-SHA256sum: b17e77cd89183f20c8a09a619480320bf86cd4cd1d40bc12807b0b73347c16df
+Installed-Size: 1866196
+Filename: shadowsocks-rust-ssserver_1.12.5-1_x86_64.ipk
+Size: 1860111
+SHA256sum: 37a223f3fe3ffbd97a19b1d3644042e4f108f793a35214be5a36980472cab75f
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/shadowsocks-rust
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 2982842
-Filename: shadowsocks-rust-ssservice_1.12.4-1_x86_64.ipk
-Size: 2973516
-SHA256sum: 10734eb488895eb33bfaa1b66f3ea04e22dd9af76cbb22f0a10d1b0c411bea5f
+Installed-Size: 3015637
+Filename: shadowsocks-rust-ssservice_1.12.5-1_x86_64.ipk
+Size: 3006056
+SHA256sum: 03d4c8beaf526f52f6093fda52783c519b99d1bb975b202c96c856439b2ab6e2
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/shadowsocks-rust
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 653753
-Filename: shadowsocks-rust-ssurl_1.12.4-1_x86_64.ipk
-Size: 653055
-SHA256sum: d9837e3d133b319476cbf0731daa7ac221d4432cb03f728d2ba24af2ed2e7bbd
+Installed-Size: 640273
+Filename: shadowsocks-rust-ssurl_1.12.5-1_x86_64.ipk
+Size: 639100
+SHA256sum: 1b234f43e06845c3b5be48978190389e0559445b4a890d9aa8c9a341cc4de5ed
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -656,15 +559,15 @@ Description:  Simple-obfs is a simple obfusacting tool, designed as plugin serve
 Package: sms-tool
 Version: 2021-12-03-d38898f4-1
 Depends: libc
-Source: /home/neo/wrt-project/tes/custom-feeds/luci-app-sms-tool/sms-tool
+Source: /home/neo/wrt-project/custom-feeds/luci-app-sms-tool/sms-tool
 SourceName: sms-tool
 Section: utils
 SourceDateEpoch: 1638720167
 Architecture: x86_64
 Installed-Size: 8029
 Filename: sms-tool_2021-12-03-d38898f4-1_x86_64.ipk
-Size: 8795
-SHA256sum: 8d8f6ed9038057864c943aa80c6f6ed352553520abb58f0f5a33985a287c1dd9
+Size: 8793
+SHA256sum: 2ea68b496e05890be2f3cbfa0584031667e7c67f92444ac62d6d2380a978abba
 Description:  SMS Tool for 3G/4G modem
 
 Package: ssocks
@@ -813,20 +716,20 @@ SHA256sum: a152a075d31343c575c4d618dc129301f84d3ad86dbb919738eacd4ed29b9def
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.4-211024.32495
+Version: 1.5.5-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
-Source: /home/neo/wrt-project/tes/custom-feeds/v2raya
+Source: /home/neo/wrt-project/custom-feeds/v2raya
 SourceName: v2raya
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638978374
+SourceDateEpoch: 1640341527
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 9377272
-Filename: v2raya_1.5.4-211024.32495_x86_64.ipk
-Size: 9349341
-SHA256sum: f3416dab091790ec728c5926012fa337b61d819cc76b3b71015fd3a0702dd8eb
+Installed-Size: 9391177
+Filename: v2raya_1.5.5-1_x86_64.ipk
+Size: 9361613
+SHA256sum: 4c633bea202081761e3b0686462bc04bd36597559d37074084fcd12706faa008
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
@@ -848,19 +751,19 @@ SHA256sum: 0c58789a1675ed43e10c7a9170c0d0e9c14b63dd5fb5b4b60df5b8166124ddb8
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.0-1
+Version: 1.5.1-1
 Depends: libc, ca-bundle
-Source: /home/neo/wrt-project/tes/custom-feeds/openwrt-passwall/xray-plugin
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/xray-plugin
 SourceName: xray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1638857324
+SourceDateEpoch: 1640359581
 Maintainer: Tianling Shen <cnsztl@project-openwrt.eu.org>
 Architecture: x86_64
-Installed-Size: 3807543
-Filename: xray-plugin_1.5.0-1_x86_64.ipk
-Size: 3809006
-SHA256sum: db9ae556b8e4b8197c39bda33e3b57f9cb17c59993a7f2c8af0dbea580fda05d
+Installed-Size: 3620372
+Filename: xray-plugin_1.5.1-1_x86_64.ipk
+Size: 3621831
+SHA256sum: 05f9bf6fc5b42b7fa75e5bfe0b6aeeb37bb1e00318bddace1d7d862bbb9e7ee3
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

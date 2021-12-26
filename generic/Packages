@@ -5,8 +5,8 @@ Section: net
 Architecture: all
 Installed-Size: 2150
 Filename: 3ginfo-lite_20190418_all.ipk
-Size: 2910
-SHA256sum: 2d847ae74f523e975f58e19b85647d8d370f6455c23d63d0daded39a8a3e485b
+Size: 2928
+SHA256sum: 511ea3b6e6921ee1544fac0acea324ca25b2ab46edb9fdd648e3583ef9753f03
 Description:  Information about status of 3G/4G modem (lite version)
 
 Package: 3ginfo-qmisignal
@@ -14,10 +14,10 @@ Version: 20190418
 Depends: libc, uqmi, uhttpd
 Section: net
 Architecture: all
-Installed-Size: 2262
+Installed-Size: 2263
 Filename: 3ginfo-qmisignal_20190418_all.ipk
-Size: 3044
-SHA256sum: 7210fd64c7293c75f3d42bcc6b8517d39637960bb3a52854efe873c41be75b62
+Size: 3053
+SHA256sum: 420843f23450c1563845fe2392abe02092de5a659532bb7ee63fe5e912f1f887
 Description:  Information about status of 3G/4G modem (qmi signal)
 
 Package: 3ginfo-text
@@ -25,10 +25,10 @@ Version: 20190418
 Depends: libc, comgt
 Section: net
 Architecture: all
-Installed-Size: 9092
+Installed-Size: 9099
 Filename: 3ginfo-text_20190418_all.ipk
-Size: 10003
-SHA256sum: 51519168071fd243a27d4fe428ae135ac173a15f6896f0bab9e623b630934df4
+Size: 10023
+SHA256sum: 29d26762701da463f7f76feefc443b4d10f2707f9417e8d0921779337111de5d
 Description:  Information about status of 3G/4G modem (text version)
 
 Package: 3ginfo
@@ -36,23 +36,11 @@ Version: 20190418
 Depends: libc, 3ginfo-text, uhttpd
 Section: net
 Architecture: all
-Installed-Size: 11202
+Installed-Size: 11200
 Filename: 3ginfo_20190418_all.ipk
-Size: 11981
-SHA256sum: 26bb7a1e31bc52ffca8df68971f2c8a2bd2a51639b26f1b94da28ad213b67e5f
+Size: 11982
+SHA256sum: 6849b8753613c2f20e88be88618d9c0c5409ce3b485efe9e5493bee5234d374e
 Description:  Information about status of 3G/4G modem
-
-Package: 3proxy-sql
-Version: 0.9-devel
-Depends: libc, 3proxy
-License: GPLv2
-Section: opt
-Architecture: all
-Installed-Size: 14015
-Filename: 3proxy-sql_0.9-devel_all.ipk
-Size: 14681
-SHA256sum: b63c7c2e4720cdf8f5ff1dd5bb65b020c68475acc6f37c6b010c474727747e7a
-Description:  3proxy sql template
 
 Package: bwmon
 Version: 1.000-1
@@ -81,11 +69,24 @@ Version: 1.000-1
 Depends: libc, httping, curl, coreutils, coreutils-date
 Section: utils
 Architecture: all
-Installed-Size: 44207
+Installed-Size: 19826
 Filename: ext-speedtest_1.000-1_all.ipk
-Size: 45098
-SHA256sum: ee1e22a5722c63b1f17ab391a0e8e3ea762a991cb4f74fed2d72774c4d83fca7
+Size: 20564
+SHA256sum: 715f191754898ce6dadb9098e0c04c474e8888c731520dbf59c5261dadcd7ceb
 Description:  Helper scripts to enable SpeedTest.net
+
+Package: internet-detector
+Version: 0.4-3
+Depends: libc, lua, luci-lib-nixio, libuci-lua
+Section: net
+Architecture: all
+Installed-Size: 4390
+Filename: internet-detector_0.4-3_all.ipk
+Size: 5249
+SHA256sum: 6c6e37a367c5d33c7272a65d7f53a57dda4b0edec020c1f3dafe2c0dd79b819b
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the nixio library.
 
 Package: iptvhelper
 Version: 0.1.1-7
@@ -112,14 +113,14 @@ SHA256sum: 4083ef77fdd5044fb76843c0708f63417c4398793e3960e9fb848bfc1152cb02
 Description:  IPv6 Helper and Dynamic Update he.net of ip
 
 Package: luci-app-3ginfo-lite
-Version: 1.0.8-20211120
+Version: 1.0.9-20211218
 Depends: libc, sms-tool
 Section: luci
 Architecture: all
-Installed-Size: 86991
-Filename: luci-app-3ginfo-lite_1.0.8-20211120_all.ipk
-Size: 87920
-SHA256sum: 2bee57663b7a57ab12c5334fcb3477d8354366e3b38df56d56d9163e638079b0
+Installed-Size: 87784
+Filename: luci-app-3ginfo-lite_1.0.9-20211218_all.ipk
+Size: 88669
+SHA256sum: 09a33f3edb4c509a8ef68f4ee874bd2e9e9288f24ea7ee3ce8309a307d5cd04f
 Description:  LuCI panel for 3ginfo-lite
 
 Package: luci-app-3ginfo
@@ -127,23 +128,11 @@ Version: 1.3.3
 Depends: libc, 3ginfo-text, luci-compat
 Section: luci
 Architecture: all
-Installed-Size: 62716
+Installed-Size: 62718
 Filename: luci-app-3ginfo_1.3.3_all.ipk
-Size: 63639
-SHA256sum: 07ffc6d3fc5611710274ae4f07bce64719a7bdb28c620fd2813c0d46fec6d0d9
+Size: 63637
+SHA256sum: fdd5ac667b4c1d3905b695e22a66d9568bf1c426676693b1991e9ba563983551
 Description:  LuCI panel for 3ginfo
-
-Package: luci-app-3proxy
-Version: 0.0.1
-Depends: libc, 3proxy
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 1158
-Filename: luci-app-3proxy_0.0.1_all.ipk
-Size: 2009
-SHA256sum: d9b8aac535e825143a0860700ac20b7581e28e0126ef3e6e9fc7ba3d58479789
-Description:  3proxy simple webUI
 
 Package: luci-app-adblock-plus
 Version: 1.0-9
@@ -184,10 +173,10 @@ Version: 0.9
 Depends: libc, luci-compat
 Section: luci
 Architecture: all
-Installed-Size: 3635
+Installed-Size: 3634
 Filename: luci-app-argon-config_0.9_all.ipk
-Size: 4533
-SHA256sum: b645ba7be084ffccfe31530fc211f6c6ec0099eb81235f80285d57452caf2ae5
+Size: 4531
+SHA256sum: 41c09cb59cba5f427aefe3239229a834743e33430798e5764e5d86f2250a6001
 Description:  LuCI page for Argon Config
 
 Package: luci-app-atinout-mod
@@ -196,10 +185,10 @@ Depends: libc, atinout, luci-compat
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 4011
+Installed-Size: 4017
 Filename: luci-app-atinout-mod_1.3.1-08082021_all.ipk
-Size: 4850
-SHA256sum: 826e41f1b10e06847e9910d2e14ce1d951bfdc04901e0881e1e4fefdf75ec56a
+Size: 4852
+SHA256sum: c168ea3e3f19b3f76fbfc3e36824068874d908c2d5bb242057bb340659838405
 Description:  Web UI for atinout
 
 Package: luci-app-autoreboot
@@ -211,17 +200,6 @@ Installed-Size: 1302
 Filename: luci-app-autoreboot_1.0_all.ipk
 Size: 2150
 SHA256sum: edc590417aab2a42eecdbbdcd009809f3bef8bfee57e6b5e822614a990f8671d
-Description:  LuCI support for Scheduled Reboot
-
-Package: luci-app-autorebootnew
-Version: 1.1
-Depends: libc, luci
-Section: luci
-Architecture: all
-Installed-Size: 2003
-Filename: luci-app-autorebootnew_1.1_all.ipk
-Size: 2877
-SHA256sum: 1ee4a9d833a5cbc28a355557c4ea13ad2b643bbf8bf2b6ca0ed71af95a50ad41
 Description:  LuCI support for Scheduled Reboot
 
 Package: luci-app-autotimeset
@@ -257,17 +235,6 @@ Size: 2827356
 SHA256sum: dcee02d60b556fd71083f9437409d094417a799da8ffb62ae6b412e56e8a0c4a
 Description:  Luci Interface for clash.
 
-Package: luci-app-control-speedlimit
-Version: v4.0.4-20210515
-Depends: libc, tc, bash, kmod-ifb, kmod-sched, kmod-sched-core
-Section: luci
-Architecture: all
-Installed-Size: 3030
-Filename: luci-app-control-speedlimit_v4.0.4-20210515_all.ipk
-Size: 3874
-SHA256sum: fffbddfe55be447e4f371a73156f1ee0630881b5f4a804a80c6532a9618f762b
-Description:  LuCI support for speedlimit
-
 Package: luci-app-cpu-status
 Version: 0.3-3
 Depends: libc
@@ -279,17 +246,6 @@ Filename: luci-app-cpu-status_0.3-3_all.ipk
 Size: 3075
 SHA256sum: ba16362606e036a5f3097c501ae661458654b18f212e17ed8ee84f978d04b5ca
 Description:  CPU utilization info for the LuCI status page
-
-Package: luci-app-cpulimit
-Version: 1.0-2
-Depends: libc, cpulimit
-Section: luci
-Architecture: all
-Installed-Size: 1809
-Filename: luci-app-cpulimit_1.0-2_all.ipk
-Size: 2611
-SHA256sum: 321bb85cb991ba65137bb4eb202d01a428a98873dfd50312758cdf6c582c0a78
-Description:  LuCI support for cpulimit
 
 Package: luci-app-diskman
 Version: v0.2.11-beta
@@ -314,18 +270,6 @@ Filename: luci-app-disks-info_0.3-9_all.ipk
 Size: 7472
 SHA256sum: f7954bba6bfce48f7d9e78e0f2f4380366129731f0fbf8aa80b9f63269066f9b
 Description:  Information about connected disk devices (partitions, filesystems, SMART).
-
-Package: luci-app-dnsfilter
-Version: 1.0
-Depends: libc, curl, dnsmasq-full, ipset
-License: GPLv2
-Section: luci
-Architecture: all
-Installed-Size: 8096
-Filename: luci-app-dnsfilter_1.0_all.ipk
-Size: 8898
-SHA256sum: f8513ffc0c0c74deeef3b8cf7331ed298fc2fd97bf053ac07098791ea749ec02
-Description:  LuCI support for DNSFilter
 
 Package: luci-app-eqos
 Version: git-20.112.09442-85f9b37
@@ -395,16 +339,15 @@ SHA256sum: 1901cc083771f331bf6120e8666b8451eeb4df194d176615341a7413c9d8a95e
 Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
-Version: 0.2
-Depends: libc, luci-mod-admin-full
-License: MIT
+Version: 0.4-3
+Depends: libc, internet-detector
 Section: luci
 Architecture: all
-Installed-Size: 937
-Filename: luci-app-internet-detector_0.2_all.ipk
-Size: 1784
-SHA256sum: 241d5db0242147bb5cdd6fff9e441e62bf9c11c10ab1ddf2884b8e4c0c9faf06
-Description:  Internet detector for the LuCI status page
+Installed-Size: 5152
+Filename: luci-app-internet-detector_0.4-3_all.ipk
+Size: 6004
+SHA256sum: 5443e022f96e7d3a685bcdc8e9d25bf99398509f4690ad730ad3608b2d1c08ac
+Description:  LuCI support for internet-detector
 
 Package: luci-app-iperf
 Version: 210617.54234
@@ -463,27 +406,16 @@ Size: 2076529
 SHA256sum: b1a7a2215e0cf1e82b0bad02262978c1d2c0ce9b2a2e8a285a1f18f82c443671
 Description:  LuCI Libernet Plus App
 
-Package: luci-app-libernet
-Version: 1.5
-Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns
-Section: luci
-Architecture: all
-Installed-Size: 589
-Filename: luci-app-libernet_1.5_all.ipk
-Size: 1852
-SHA256sum: c2eb299c6611a31f8a8d1facc70d9a8cc1e2a6f7781159f07373d64bdeb46700
-Description:  LuCI Libernet App
-
 Package: luci-app-log
-Version: 0.4-8
+Version: 0.5-1
 Depends: libc, luci-mod-admin-full
 License: MIT
 Section: luci
 Architecture: all
-Installed-Size: 5246
-Filename: luci-app-log_0.4-8_all.ipk
-Size: 6129
-SHA256sum: 6785db568618d8f37ec8c674800d0def471bc5b1a12402678de757ff20ed2a1c
+Installed-Size: 5263
+Filename: luci-app-log_0.5-1_all.ipk
+Size: 6136
+SHA256sum: 2b626d332fcc95b376ae61a20ebbac0d047b79f34c7c24997af49a796ea56d77
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mikhmon
@@ -503,10 +435,10 @@ Depends: libc, modemmanager, luci-compat
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 2782
+Installed-Size: 2661
 Filename: luci-app-mmconfig_0.0.4_all.ipk
-Size: 3673
-SHA256sum: 6cd2f4b18ca37e487929ec08c67dcc101d9bf8bced8fd65f33bd2bc6b3ad8c05
+Size: 3551
+SHA256sum: aa2c940595b8c456478f8aa7ab82c91ea4617c2d1a10b7537abb0e8dfdf82c90
 Description:  Configrure modem bands via mmcli utility
 
 Package: luci-app-modeminfo
@@ -515,22 +447,11 @@ Depends: libc, comgt, luci-compat
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 15241
+Installed-Size: 15254
 Filename: luci-app-modeminfo_0.2.0_all.ipk
-Size: 16094
-SHA256sum: ddabdd0bd57abe172ece611912da83a8c3b64f620e60c1899f70946a80837616
+Size: 16109
+SHA256sum: fc1b0ba86219a4bcf7d3bbb8e7b43833265dd11ea6429a8fa4d575660888b1b3
 Description:  Information dashboard for 3G/LTE dongle
-
-Package: luci-app-mwan3helper
-Version: 1
-Depends: libc, luci-app-mwan3, pdnsd-alt, dnsmasq-full, ipset
-Section: luci
-Architecture: all
-Installed-Size: 93429
-Filename: luci-app-mwan3helper_1_all.ipk
-Size: 92627
-SHA256sum: 54edcd797b2b7e6b5bf90b1d0a3ca5637b3be118cef6ce9b2374ebc6b63f5603
-Description:  LuCI support for MWAN3 Helper
 
 Package: luci-app-netdata
 Version: 1.0
@@ -542,6 +463,17 @@ Filename: luci-app-netdata_1.0_all.ipk
 Size: 1485
 SHA256sum: b8d1a433a3202a74dd7cfb449082a9c68fd56b0970e8664994df3b25a2187909
 Description:  LuCI support for Netdata
+
+Package: luci-app-netmon
+Version: 1.0
+Depends: libc, php7, php7-cgi, php7-mod-session, zoneinfo-core, zoneinfo-asia, luci-app-tinyfm, netdata
+Section: luci
+Architecture: all
+Installed-Size: 2250
+Filename: luci-app-netmon_1.0_all.ipk
+Size: 3495
+SHA256sum: f4625e3ce0203ba42b6bbeeca5a4efdf2ca4f9a352c1319a7ecc1c120f749cb6
+Description:  LuCI Net Monitor Lite
 
 Package: luci-app-netmonitor
 Version: 2.0
@@ -561,21 +493,21 @@ Depends: libc, i2c-tools, coreutils-nohup, libuci20130104
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 15220
+Installed-Size: 16995
 Filename: luci-app-oled_1.0_all.ipk
-Size: 16101
-SHA256sum: c55492fa474ed0c75c9d42e7be6bb1ef32843e073f1f8e0f6dd8ada0dedd7a59
+Size: 17911
+SHA256sum: 0c91390f5aaa5da5cb324a2cc4397dd8a05c9f47bb301ebec8c16f619bf26016
 Description:  LuCI luci-app-oled app
 
 Package: luci-app-openclash
-Version: 0.44.03-beta
+Version: 0.44.04-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun
 Section: opt
 Architecture: all
-Installed-Size: 2233653
-Filename: luci-app-openclash_0.44.03-beta_all.ipk
-Size: 2217331
-SHA256sum: f61647811f4eddc06757454fee86568ef008e04a45ba461f50be900d8acba094
+Installed-Size: 2256887
+Filename: luci-app-openclash_0.44.04-beta_all.ipk
+Size: 2239992
+SHA256sum: 7e8a2d4e7ba97db74b788c08472c8685a57e7a269cb7508467f9d19fe06dd879
 Description:  A LuCI support for clash
 
 Package: luci-app-openspeedtest
@@ -590,14 +522,14 @@ SHA256sum: 5e605a0836ac072aefc723789aaa401057c37b0050f05360be942c2d98edf899
 Description:  LuCI OpenSpeedtest App
 
 Package: luci-app-passwall
-Version: 4.43
+Version: 4.44
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, luci-compat, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, brook, chinadns-ng, haproxy, hysteria, kcptun-client, naiveproxy, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan-go, trojan-plus, v2ray-core, v2ray-plugin, xray-core, xray-plugin
 Section: luci
 Architecture: all
-Installed-Size: 1019416
-Filename: luci-app-passwall_4.43_all.ipk
-Size: 1020065
-SHA256sum: 357cc719a5d20b85c15c11296366ae50794d33e0a0da93c7976aba3a59ee7bae
+Installed-Size: 1022645
+Filename: luci-app-passwall_4.44_all.ipk
+Size: 1023477
+SHA256sum: 97d0d2bdc17b4e3ab68a4c244fbacebfb1ea8c96c8cc14586d97a4f8535b6946
 Description:  LuCI support for PassWall
 
 Package: luci-app-poweroff
@@ -612,14 +544,14 @@ SHA256sum: 1744e7b919d7011a588d6a761f51c3598e507b1e98cb805e061315664b441e66
 Description:  LuCI Support of PowerOff Router
 
 Package: luci-app-qbittorrent
-Version: 1.0
+Version: 211218.56524
 Depends: libc, qBittorrent-Enhanced-Edition
 Section: luci
 Architecture: all
-Installed-Size: 2668
-Filename: luci-app-qbittorrent_1.0_all.ipk
-Size: 3570
-SHA256sum: 8706a88aa3d7187340e4cb0f4169553adfe6601276c0ba30a72386d8b793213b
+Installed-Size: 2788
+Filename: luci-app-qbittorrent_211218.56524_all.ipk
+Size: 3653
+SHA256sum: bdf923bebebcaac6219143454f9008c782980a2e51ad8e082593e7be79ee36ea
 Description:  qbittorrent-nox for LuCI
 
 Package: luci-app-ramfree
@@ -669,15 +601,16 @@ SHA256sum: bcc644234dca79abb41d12a1e3afd2b71e55557d3fffa5ffdb7a24adbbd94524
 Description:  LuCI Support for shortcutmenu
 
 Package: luci-app-shutdown
-Version: 1.2
+Version: 210617.54234
 Depends: libc
+License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 438
-Filename: luci-app-shutdown_1.2_all.ipk
-Size: 1287
-SHA256sum: 3aaa8328bb0eaddeaf514d8a7a1726b9652ce22333638c81ca0527ef32f82a33
-Description:  LuCI Shutdown Your Router in One-Click
+Installed-Size: 1102
+Filename: luci-app-shutdown_210617.54234_all.ipk
+Size: 1950
+SHA256sum: 270d6ab7c8b8e7be928511dbbc103a5541c26f7e2a5c4257f1df79578a6ecf7d
+Description:  LuCI Shutdown device app
 
 Package: luci-app-sms-tool
 Version: 1.9.2-2021-11-02
@@ -685,10 +618,10 @@ Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, luci-compat
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 13881
+Installed-Size: 13883
 Filename: luci-app-sms-tool_1.9.2-2021-11-02_all.ipk
-Size: 14759
-SHA256sum: bc1bce4ca39b8a4e4010ca5389958f9e142c511024de313a7b9798c43c8959db
+Size: 14769
+SHA256sum: 5079be4fadb874b1ed2cccd792f1ed49862bff11d5ca51e58df8aecee70a946b
 Description:  LuCI Support for sms_tool
 
 Package: luci-app-smstools3
@@ -697,10 +630,10 @@ Depends: libc, smstools3, iconv, luci-compat
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 6190
+Installed-Size: 6197
 Filename: luci-app-smstools3_0.0.6_all.ipk
-Size: 7132
-SHA256sum: 6fbf53c61fa023bea37301529888e1380c2313df09c0292f765c555cbb9c68e2
+Size: 7135
+SHA256sum: 81882c8d877f788c9766a10586d9d0b1eb395d32116b2f6cfbf4c0dc477a7e93
 Description:  Web UI for smstools3
 
 Package: luci-app-socat
@@ -715,26 +648,15 @@ Size: 4769
 SHA256sum: 478ea6cff3b7b81a437eff2120787ecc6743319df77b65a4bd4eb73b5545cefc
 Description:  Web UI for socat
 
-Package: luci-app-socat
-Version: 211026.47265
-Depends: libc, socat
-Section: luci
-Architecture: all
-Installed-Size: 3818
-Filename: luci-app-socat_211026.47265_all.ipk
-Size: 4686
-SHA256sum: 79620602480bbb702cf9b97fd8e36928e11d2023d1b59764d4d5b3b56a97c957
-Description:  LuCI support for Socat
-
 Package: luci-app-ssr-plus
 Version: 184
 Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, kcptun-client, naiveproxy, ipt2socks, redsocks2, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan, v2ray-plugin, curl, xray-core
 Section: luci
 Architecture: all
-Installed-Size: 193929
+Installed-Size: 194391
 Filename: luci-app-ssr-plus_184_all.ipk
-Size: 194262
-SHA256sum: 9bc9ebfb64b2ca651dab352bc3f21f224f228870b4af35c3a394b92df04d4cf9
+Size: 194659
+SHA256sum: 7c90b9db439e342665ec3da045c900ba935cf788a04bc916b9bc1a214b2ec9d8
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-timecontrol
@@ -759,6 +681,17 @@ Size: 378998
 SHA256sum: feb5eccd0c3468d172db5af92ab90d6d6320795ba8eae56917b310c2609db9b7
 Description:  LuCI Tiny File Manager App
 
+Package: luci-app-tn-netports
+Version: git-21.083.23127-6f69950
+Depends: libc, luabitop
+Section: luci
+Architecture: all
+Installed-Size: 17420
+Filename: luci-app-tn-netports_git-21.083.23127-6f69950_all.ipk
+Size: 18218
+SHA256sum: c922a7845652900add06278e4443994ce42b5b8a73f8df419f613c24c2dc0bc3
+Description:  Network ports status LuCI application
+
 Package: luci-app-usb-printer
 Version: 1.0
 Depends: libc, p910nd, kmod-usb-printer
@@ -777,8 +710,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2897
 Filename: luci-app-v2raya_1.0_all.ipk
-Size: 3790
-SHA256sum: a9ead59e3ce884b4daa3735a6b21115a6e0db4dae4b1f652a0e0adb39650da51
+Size: 3792
+SHA256sum: 0202dc93ef4d316c23eb434514c6b67e9c479d1c3b8f094c81a0533db3c6902c
 Description:  LuCI support for v2rayA
 
 Package: luci-app-vlmcsd
@@ -797,10 +730,10 @@ Version: 1.22-2
 Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, kcptun-client, xray-plugin, shadowsocksr-libev-ssr-server
 Section: luci
 Architecture: all
-Installed-Size: 3179838
+Installed-Size: 3179964
 Filename: luci-app-vssr_1.22-2_all.ipk
-Size: 3008275
-SHA256sum: e3598efb62b059fc54752437d41884f81bc2957c98e69f7d4c2dad5b78e664d0
+Size: 3008552
+SHA256sum: 48bc5eea79119815b7c622db82c799edf8128d8c367fbedeca839037c6bbceac
 Description:  A New SS/SSR/Xray/Trojan LuCI interface
 
 Package: luci-app-wegare
@@ -808,22 +741,22 @@ Version: 1.3
 Depends: libc, php7, php7-cgi, php7-mod-session, zoneinfo-core, zoneinfo-asia, sshpass, openvpn-openssl, ip-full, openssh-client, httping, screen, python3, coreutils-nohup, libevent2-7, redsocks
 Section: luci
 Architecture: all
-Installed-Size: 274260
+Installed-Size: 276173
 Filename: luci-app-wegare_1.3_all.ipk
-Size: 275426
-SHA256sum: e2bf78aa4390a386fbc4222179dadb8b69280399367cd760c075e4fe7d9f5d8f
+Size: 277300
+SHA256sum: 8e551bb761799afe4642b910650566a69ad58f75c0a2ce4a5804846aa65ed6b6
 Description:  LuCI Wegare Tool App
 
 Package: luci-app-wrtbwmon
-Version: 2.0.9
+Version: 2.0.10
 Depends: libc, wrtbwmon
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 8174
-Filename: luci-app-wrtbwmon_2.0.9_all.ipk
-Size: 9091
-SHA256sum: b2272190ad4a4133c32deb503b61a063a7949fc4471c5903b1b490cf8c8bf743
+Installed-Size: 8176
+Filename: luci-app-wrtbwmon_2.0.10_all.ipk
+Size: 9086
+SHA256sum: 098ceb89b35d38ef2dfa7fbabfb70722c76911e13ff7cb5f939489992e1f72c5
 Description:  A Luci module that uses wrtbwmon to track bandwidth usage
 
 Package: luci-app-xderm-bin
@@ -848,17 +781,6 @@ Size: 4933
 SHA256sum: 9f2d6dc8b97341aeef5eaef8d406a429cd9fcb5dc7710c4125825d0d5091c038
 Description:  LuCI Xderm Mini App
 
-Package: luci-app-xderm
-Version: 1.3
-Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php7, php7-cgi, php7-mod-session, https-dns-proxy
-Section: luci
-Architecture: all
-Installed-Size: 595
-Filename: luci-app-xderm_1.3_all.ipk
-Size: 1936
-SHA256sum: 682882ad902c75a517b1cf41036b10a02292a5cf7b28a61a9697ef2d807995cd
-Description:  LuCI Xderm Mini App
-
 Package: luci-app-zerotier
 Version: 1.0
 Depends: libc, zerotier
@@ -881,15 +803,26 @@ Size: 3040
 SHA256sum: 2579670223f3da3879a1309c966639612794f99a3f41ea7cc884e0bc4a601932
 Description:  luci-lib-fs
 
+Package: luci-proto-mbim
+Version: 200910.68426
+Depends: libc, umbim
+Section: luci
+Architecture: all
+Installed-Size: 1167
+Filename: luci-proto-mbim_200910.68426_all.ipk
+Size: 2022
+SHA256sum: 53b4da18bdf08f79a957c1a9ebd69a60bf13ebce2f20ca3209df7390838df0f3
+Description:  Support for MBIM
+
 Package: luci-theme-argon
 Version: 2.2.9
-Depends: libc
+Depends: libc, luci-lib-ipkg
 Section: luci
 Architecture: all
 Installed-Size: 414569
 Filename: luci-theme-argon_2.2.9_all.ipk
-Size: 415220
-SHA256sum: 2a08185c55bf57f8b45508474d8d894a99b9376f140587a0a1963d9291813c9c
+Size: 415224
+SHA256sum: 4fd00273be911fe934dd6cdcbb7cffb8141b32099415c2e047538128969eecd2
 Description:  Argon Theme
 
 Package: luci-theme-edge
@@ -904,15 +837,26 @@ Size: 232316
 SHA256sum: 772ae6e8f41cc5c2a3eb690a46f1da90d677c9fbf652cd6246685f36ccab32f2
 Description:  Edge Theme
 
+Package: luci-theme-openmptcprouter
+Version: 210915.66086
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 78205
+Filename: luci-theme-openmptcprouter_210915.66086_all.ipk
+Size: 79171
+SHA256sum: 95ce6a99d0d64787bcfa0008f19f122ff84e2b6e756a235b4169dee633a80994
+Description:  OpenMPTCProuter Theme (default)
+
 Package: usb-storage
 Version: 1.000-1
 Depends: libc, ntfs-3g, fdisk, kmod-usb-storage, kmod-fs-ext4, kmod-fs-vfat, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8, block-mount, kmod-fs-exfat, kmod-fs-hfs, hd-idle
 Section: utils
 Architecture: all
-Installed-Size: 3016
+Installed-Size: 3015
 Filename: usb-storage_1.000-1_all.ipk
-Size: 3838
-SHA256sum: 70ad1fcac06bf39c57aa2f6e090bcbd19b954573948f9ef1a8ba2f532be359ed
+Size: 3852
+SHA256sum: ba9eb01247c9d2e41c9d78c2082d01aea45e1d396b8a91e77222535c30ae26a5
 Description:  Helper scripts to install USB Storage
 
 Package: v2ray-example
@@ -945,20 +889,29 @@ Description:  Project V is a set of network tools that help you to build your ow
  
  This includes extra resources for v2ray-core.
 
-Package: v2ray-geodata
-Version: 4.44.0-1
-Depends: libc, v2ray-core
+Package: v2ray-geoip
+Version: 202112090029-1
+Depends: libc
+License: CC-BY-SA-4.0
+Section: net
+Architecture: all
+Installed-Size: 2345294
+Filename: v2ray-geoip_202112090029-1_all.ipk
+Size: 1960245
+SHA256sum: 705fcdae8493bd1918cbcf3baba20462ae008c7c79148b49bcc4d6ec4fcfe997
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20211209100918-1
+Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 2826171
-Filename: v2ray-geodata_4.44.0-1_all.ipk
-Size: 2309151
-SHA256sum: 778837e7d035b77c0519c3e088a40fe286429632e7e789a6cc544e87e4452b18
-Description:  Project V is a set of network tools that help you to build your own computer network.
- It secures your network connections and thus protects your privacy.
- 
- This includes GEO datas used for v2ray-core.
+Installed-Size: 300359
+Filename: v2ray-geosite_20211209100918-1_all.ipk
+Size: 299997
+SHA256sum: 41d936a77b183f3590fc8ca93aed8b3e2dd2864c4d1acc9b877d11702a213652
+Description:  Geosite List for V2Ray
 
 Package: webconsole
 Version: 1.000-1

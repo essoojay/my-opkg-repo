@@ -1,27 +1,3 @@
-Package: 3proxy-servers
-Version: 0.9-devel
-Depends: libc, 3proxy
-License: GPLv2
-Section: opt
-Architecture: aarch64_generic
-Installed-Size: 97722
-Filename: 3proxy-servers_0.9-devel_aarch64_generic.ipk
-Size: 98278
-SHA256sum: a2de8c2b29b3b4b04074cfad2089dd75ce71a304fb253036e295943cbf243d30
-Description:  3proxy addional servers
-
-Package: 3proxy
-Version: 0.9-devel
-Depends: libc, libpthread, libopenssl1.1
-License: GPLv2
-Section: net
-Architecture: aarch64_generic
-Installed-Size: 108568
-Filename: 3proxy_0.9-devel_aarch64_generic.ipk
-Size: 109273
-SHA256sum: 61df3cd07acc86985460d5924acc7f2ee69f047bc43a1c13245f41977891e477
-Description:  3APA3A 3proxy tiny proxy servers
-
 Package: adbyby
 Version: 2.7-20200315
 Depends: libc
@@ -104,17 +80,6 @@ Size: 4078
 SHA256sum: 36e12e571ca74e9f5f8569b6a026549bd04a8aaf34bb26e0164c11a0914c8e0d
 Description:  Tunneling SSH through HTTP proxies.
 
-Package: cpulimit
-Version: 0.2-1
-Depends: libc
-Section: utils
-Architecture: aarch64_generic
-Installed-Size: 8090
-Filename: cpulimit_0.2-1_aarch64_generic.ipk
-Size: 8778
-SHA256sum: a708f0a89a83e75851e17f7e0345167f9482ba56477656798262b5e04e3faf87
-Description:  cpulimit
-
 Package: dns-over-https
 Version: 2.3.0-211024.32495
 Depends: libc
@@ -140,14 +105,14 @@ SHA256sum: 6378984b6c5b6c0eebbd3d30819d9cc1fe094ac78309cdd87747497ae08c52bf
 Description:  This is a utility to resolve DNS requests via a SOCKS5 tunnel and caches the answers.
 
 Package: hysteria
-Version: 0.8.6-1
+Version: 0.9.1-1
 Depends: libc
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 3124968
-Filename: hysteria_0.8.6-1_aarch64_generic.ipk
-Size: 3126373
-SHA256sum: c9a167301eb8e43f1a1e12083359cc8e17641adc52cee365b4c80ea0d715a9c0
+Installed-Size: 3467200
+Filename: hysteria_0.9.1-1_aarch64_generic.ipk
+Size: 3468651
+SHA256sum: 5ea91e9f64ff9abc90164257448a36eb5121d29b2dbf445c28904a971034e78e
 Description:  Hysteria is a feature-packed network utility optimized for networks of poor quality (e.g. satellite connections, congested public Wi-Fi, connecting from China to servers abroad)
 
 Package: ipt2socks
@@ -161,29 +126,6 @@ Size: 35483
 SHA256sum: a4a9aaecb655f0e85a8fc90d0a1a9aba53c9b4969d6614d6ba0570249c80db17
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
-Package: iptables-mod-ndpi
-Version: flow_info-26911075-3.4-1
-Depends: libc, iptables, iptables-mod-conntrack-extra, kmod-ipt-ndpi
-Section: net
-Architecture: aarch64_generic
-Installed-Size: 11572
-Filename: iptables-mod-ndpi_flow_info-26911075-3.4-1_aarch64_generic.ipk
-Size: 12433
-SHA256sum: 93a9618c6f06b49841b60e6a0c5c9f1ed844a38409b7d0f0c0b031da239d9fa7
-Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
-
-Package: lib3proxy
-Version: 0.9-devel
-Depends: libc, 3proxy
-License: GPLv2
-Section: opt
-Architecture: aarch64_generic
-Installed-Size: 57403
-Filename: lib3proxy_0.9-devel_aarch64_generic.ipk
-Size: 58233
-SHA256sum: 4187a12be8d57bc1cac0cac41cc0683aba6385ed102b796489637fbef5a52e0a
-Description:  3proxy libraries
-
 Package: lua-maxminddb
 Version: 0.2-1
 Depends: libc, lua, libmaxminddb
@@ -195,18 +137,6 @@ Filename: lua-maxminddb_0.2-1_aarch64_generic.ipk
 Size: 3391
 SHA256sum: cd04f995d36d75e0d4e3e0c47f5ad7643ed521d35b7e308a684b0309059327e7
 Description:  libmaxminddb bindings for lua
-
-Package: luci-app-koolproxyR
-Version: 3.8.4-5-20200331
-Depends: libc, openssl-util, ipset, dnsmasq-full, iptables-mod-nat-extra, wget
-License: GPLv3
-Section: luci
-Architecture: aarch64_generic
-Installed-Size: 90512
-Filename: luci-app-koolproxyR_3.8.4-5-20200331_aarch64_generic.ipk
-Size: 91538
-SHA256sum: 2f0958874787b5531a515bc99fd3fc9304434278f573ce938a3ea09e81538d74
-Description:  This package contains LuCI configuration pages for koolproxy.
 
 Package: microsocks
 Version: 1.0.2-2
@@ -341,63 +271,63 @@ SHA256sum: f7862de67ff9ce660519f9d6f03e3fe2aaa6659d02e86cc38bce206f4dc49e1e
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2647612
-Filename: shadowsocks-rust-sslocal_1.12.4-1_aarch64_generic.ipk
-Size: 2637824
-SHA256sum: 0feb1cf0533a7661e5925550f5d201d39016749c1f88935a3b86a325e2858afa
+Installed-Size: 2680398
+Filename: shadowsocks-rust-sslocal_1.12.5-1_aarch64_generic.ipk
+Size: 2670146
+SHA256sum: 5732086e45b87975f4c3905c6d89a6cf345952c034816dab0c8fe83f3bba3ebb
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1800121
-Filename: shadowsocks-rust-ssmanager_1.12.4-1_aarch64_generic.ipk
-Size: 1793700
-SHA256sum: ba91b34b520d2e14e3c1c3beaa31789fb71a3b48d0ee499fbb38db8911262bd2
+Installed-Size: 1793926
+Filename: shadowsocks-rust-ssmanager_1.12.5-1_aarch64_generic.ipk
+Size: 1786907
+SHA256sum: 99190203fb13ae3e40cb7233ca60df135ac7aadcdd6705d067de2f3dfbccfc4c
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1739736
-Filename: shadowsocks-rust-ssserver_1.12.4-1_aarch64_generic.ipk
-Size: 1732079
-SHA256sum: 60b8ca6d898a4128abe2f3f63973b57f2526ac7d1221c596f250e8831b378e50
+Installed-Size: 1734489
+Filename: shadowsocks-rust-ssserver_1.12.5-1_aarch64_generic.ipk
+Size: 1728033
+SHA256sum: 28d76273ee264f4c86bc417a86e5f5bb0e7d6205a4073d5e0755413ed1d89b32
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2823551
-Filename: shadowsocks-rust-ssservice_1.12.4-1_aarch64_generic.ipk
-Size: 2813202
-SHA256sum: 6f438c3b612574e421e042563c35b8fbd08e725c5862a78329273720c4e64cfe
+Installed-Size: 2855077
+Filename: shadowsocks-rust-ssservice_1.12.5-1_aarch64_generic.ipk
+Size: 2844477
+SHA256sum: dc6a81644b2c0afd7a456d55b9b53cf408198de9382209f8e48c320a478ab647
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.4-1
+Version: 1.12.5-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 619611
-Filename: shadowsocks-rust-ssurl_1.12.4-1_aarch64_generic.ipk
-Size: 617867
-SHA256sum: 2e5002500a6b31aa3f6d062b82594a78ab05d5171fa8e935a3921182c32651f2
+Installed-Size: 607211
+Filename: shadowsocks-rust-ssurl_1.12.5-1_aarch64_generic.ipk
+Size: 605867
+SHA256sum: dae0d32bb96724e6f1f447f93166d40cf0d0387d65dd060c7e0f4828acfc0e7e
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -491,8 +421,8 @@ Section: utils
 Architecture: aarch64_generic
 Installed-Size: 8895
 Filename: sms-tool_2021-12-03-d38898f4-1_aarch64_generic.ipk
-Size: 9629
-SHA256sum: 50786b3df57a6c3d4a59b100dca15f59c6159fecb09ee5f7b1fc57fa71778bc6
+Size: 9627
+SHA256sum: 57e3fec4021ebcadd12b84f547444677bde3c93e85e0b21637a46001cba8143e
 Description:  SMS Tool for 3G/4G modem
 
 Package: ssocks
@@ -605,15 +535,15 @@ SHA256sum: a608960577ed99be2ac0bd94e787df54e7360b342adeac2c5f3a69f5d3dffa1f
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.4-211024.32495
+Version: 1.5.5-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
 License: AGPL-3.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 8806322
-Filename: v2raya_1.5.4-211024.32495_aarch64_generic.ipk
-Size: 8774729
-SHA256sum: 9de29711138d93ef1ded02d09704cdcff08cb88afe90dd440a714b559591564a
+Installed-Size: 8820143
+Filename: v2raya_1.5.5-1_aarch64_generic.ipk
+Size: 8789149
+SHA256sum: b65636957996f395d9a85b6c3b2c14b2c2d4393107cb6af8ad38ca4313da47db
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
@@ -630,14 +560,14 @@ SHA256sum: 6359703e0f6d568609f60b586100a8c4f075beec4e151ca1ae31dedb3e0598c2
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.0-1
+Version: 1.5.1-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 3161612
-Filename: xray-plugin_1.5.0-1_aarch64_generic.ipk
-Size: 3163010
-SHA256sum: 37f0fe975f1f720e9059ee8958150b937d70fa8556727c70cc7fbfa77d66b6c1
+Installed-Size: 3170371
+Filename: xray-plugin_1.5.1-1_aarch64_generic.ipk
+Size: 3171828
+SHA256sum: 2133814480679d3b9258ef4b4b8504c55818d68c585960e7c7dbc4bd711a6b3d
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
