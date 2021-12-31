@@ -158,15 +158,15 @@ SHA256sum: 3981d5529e39c8a1def48ff248cb0578b89a284a5133392f05be953c5f375e06
 Description:  LuCI support for Adbyby
 
 Package: luci-app-adguardhome
-Version: 15
-Depends: libc, wget-ssl
+Version: 211230.59212
+Depends: libc, ca-certs, curl, wget-ssl, adguardhome
 Section: luci
 Architecture: all
-Installed-Size: 90624
-Filename: luci-app-adguardhome_15_all.ipk
-Size: 91777
-SHA256sum: 1469948cdd61b5f388c6a0960f3666dc4de0e0499dd795e93876d3f1dbde1998
-Description:  LuCI support for adguardhome
+Installed-Size: 88937
+Filename: luci-app-adguardhome_211230.59212_all.ipk
+Size: 90125
+SHA256sum: dabec80a7d2d43e7567ea6ff5879904e84a7f8e5d02df829f7e2cdee7cae427c
+Description:  LuCI support for AdGuardHome
 
 Package: luci-app-argon-config
 Version: 0.9
@@ -500,14 +500,14 @@ SHA256sum: 0c91390f5aaa5da5cb324a2cc4397dd8a05c9f47bb301ebec8c16f619bf26016
 Description:  LuCI luci-app-oled app
 
 Package: luci-app-openclash
-Version: 0.44.04-beta
+Version: 0.44.07-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun
 Section: opt
 Architecture: all
-Installed-Size: 2256887
-Filename: luci-app-openclash_0.44.04-beta_all.ipk
-Size: 2239992
-SHA256sum: 7e8a2d4e7ba97db74b788c08472c8685a57e7a269cb7508467f9d19fe06dd879
+Installed-Size: 2257450
+Filename: luci-app-openclash_0.44.07-beta_all.ipk
+Size: 2240601
+SHA256sum: 15464e986e1373082b97b9933d1018188489f65b38327ea0d888b6b9d4572360
 Description:  A LuCI support for clash
 
 Package: luci-app-openspeedtest
@@ -522,14 +522,14 @@ SHA256sum: 5e605a0836ac072aefc723789aaa401057c37b0050f05360be942c2d98edf899
 Description:  LuCI OpenSpeedtest App
 
 Package: luci-app-passwall
-Version: 4.44
+Version: 4.45
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, luci-compat, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, brook, chinadns-ng, haproxy, hysteria, kcptun-client, naiveproxy, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan-go, trojan-plus, v2ray-core, v2ray-plugin, xray-core, xray-plugin
 Section: luci
 Architecture: all
-Installed-Size: 1022645
-Filename: luci-app-passwall_4.44_all.ipk
-Size: 1023477
-SHA256sum: 97d0d2bdc17b4e3ab68a4c244fbacebfb1ea8c96c8cc14586d97a4f8535b6946
+Installed-Size: 1020782
+Filename: luci-app-passwall_4.45_all.ipk
+Size: 1021696
+SHA256sum: db53d554daf7e694f3aaadf8ca0a084f60314a6f5753613a006c0a49fd4066d6
 Description:  LuCI support for PassWall
 
 Package: luci-app-poweroff
@@ -544,14 +544,14 @@ SHA256sum: 1744e7b919d7011a588d6a761f51c3598e507b1e98cb805e061315664b441e66
 Description:  LuCI Support of PowerOff Router
 
 Package: luci-app-qbittorrent
-Version: 211218.56524
+Version: 211229.61727
 Depends: libc, qBittorrent-Enhanced-Edition
 Section: luci
 Architecture: all
 Installed-Size: 2788
-Filename: luci-app-qbittorrent_211218.56524_all.ipk
-Size: 3653
-SHA256sum: bdf923bebebcaac6219143454f9008c782980a2e51ad8e082593e7be79ee36ea
+Filename: luci-app-qbittorrent_211229.61727_all.ipk
+Size: 3656
+SHA256sum: 841969399eab58fd35b201e50f0c17867e16e54873080406f2264c3be79b7e2d
 Description:  qbittorrent-nox for LuCI
 
 Package: luci-app-ramfree
