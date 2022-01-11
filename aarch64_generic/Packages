@@ -106,15 +106,15 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.2-1
+Version: 0.9.4-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 5130481
-Filename: hysteria_0.9.2-1_aarch64_generic.ipk
-Size: 5113455
-SHA256sum: d6111a5e0466370a9b09c7ed6e20b6f1fb7fd594e4d1888f6799e60f6b25f629
+Installed-Size: 5175590
+Filename: hysteria_0.9.4-1_aarch64_generic.ipk
+Size: 5157975
+SHA256sum: 706ccf4493c0c28efc34359140bd8fbdcd1c8aa096c44087c24f63aecc596474
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -157,15 +157,15 @@ SHA256sum: 3273fefb786eaa6a4c739f1e303555bf950669afd61e44b1f24de557ce076b67
 Description:  microsocks is a Tiny Proxy in C.
 
 Package: naiveproxy
-Version: 96.0.4664.45-1-1
+Version: 97.0.4692.71-1-1
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2346691
-Filename: naiveproxy_96.0.4664.45-1-1_aarch64_generic.ipk
-Size: 2343098
-SHA256sum: dc39f536945396e5ccf5bf41ecc71a8725f464af23a58500ec8b4c61b4b3a616
+Installed-Size: 2393110
+Filename: naiveproxy_97.0.4692.71-1-1_aarch64_generic.ipk
+Size: 2389664
+SHA256sum: 12799c71868f9805ac02b3aa40404a607997acf02755db54e2eed6b2d86f8be6
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -188,15 +188,15 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  minute-long hangs (or even crashes) that result from stalled dns queries.
 
 Package: qBittorrent-Enhanced-Edition
-Version: 4.3.9.10-1
+Version: 4.4.0.10-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, python3, qt5-core, qt5-network, qt5-xml, qt5-sql, zlib
 License: GPL-2.0+
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 3979432
-Filename: qBittorrent-Enhanced-Edition_4.3.9.10-1_aarch64_generic.ipk
-Size: 3976752
-SHA256sum: 42c665022babcb86d1d3f3fbe29873d172ffff16f0ee662f30137075df4c08db
+Installed-Size: 4257626
+Filename: qBittorrent-Enhanced-Edition_4.4.0.10-1_aarch64_generic.ipk
+Size: 4254891
+SHA256sum: 6d841c27e2321a17027d928db0c76ba2c4dea0837c89b2b2a7b440a95b4e0c24
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
