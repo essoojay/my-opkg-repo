@@ -61,16 +61,16 @@ Description:  Information about status of 3G/4G modem
 Package: bwmon
 Version: 1.000-1
 Depends: libc
-Source: package/feeds/custom/bwmon
+Source: /home/neo/wrt-project/custom-feeds/bwmon
 SourceName: bwmon
 Section: utils
-SourceDateEpoch: 1638978374
+SourceDateEpoch: 1643450502
 Maintainer: Created by DM/makefile by Cobia@whirlpool
 Architecture: all
-Installed-Size: 11675
+Installed-Size: 12532
 Filename: bwmon_1.000-1_all.ipk
-Size: 12407
-SHA256sum: 204381c901e7e041f6676a3807455a86fcaae4bc9c3102114d2973509116ab7c
+Size: 13299
+SHA256sum: fd45fd776d350a48fa064bca28a3128a2a09bcc3b86afdbd2c06d6727d7a9c82
 Description:  Helper scripts to install Bandwidth Monitor on ROOter
 
 Package: ext-rspeedtest
@@ -169,18 +169,18 @@ SHA256sum: 4083ef77fdd5044fb76843c0708f63417c4398793e3960e9fb848bfc1152cb02
 Description:  IPv6 Helper and Dynamic Update he.net of ip
 
 Package: luci-app-3ginfo-lite
-Version: 1.0.9-20211218
+Version: 1.0.9-20220112
 Depends: libc, sms-tool
 Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo-lite/luci-app-3ginfo-lite
 SourceName: luci-app-3ginfo-lite
 Section: luci
-SourceDateEpoch: 1639916426
+SourceDateEpoch: 1643053183
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 87784
-Filename: luci-app-3ginfo-lite_1.0.9-20211218_all.ipk
-Size: 88669
-SHA256sum: 09a33f3edb4c509a8ef68f4ee874bd2e9e9288f24ea7ee3ce8309a307d5cd04f
+Installed-Size: 88158
+Filename: luci-app-3ginfo-lite_1.0.9-20220112_all.ipk
+Size: 89101
+SHA256sum: 3dd2283eb1f3a3cc565103bc4adf66865990afba42f770e9f123f0e8766fcd30
 Description:  LuCI panel for 3ginfo-lite
 
 Package: luci-app-3ginfo
@@ -328,13 +328,13 @@ Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, smartdns, core
 Source: /home/neo/wrt-project/custom-feeds/openwrt-bypass/luci-app-bypass
 SourceName: luci-app-bypass
 Section: luci
-SourceDateEpoch: 1641630877
+SourceDateEpoch: 1642918866
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2646706
+Installed-Size: 2646710
 Filename: luci-app-bypass_1.2_all.ipk
-Size: 2465471
-SHA256sum: a4db8fe8051e0ab35e2002a96298dab6da6314f6606fbf057f4862a066609ab1
+Size: 2465263
+SHA256sum: 856787fbfaf446bcd56e28dcb44eb2e5eca37ebb66219e6807462a3eaef714d4
 Description:  SS/SSR/Xray/Trojan/Trojan-Go/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-clash
@@ -554,33 +554,33 @@ SHA256sum: 1cb739220732557ffc09fdff28a9e215b9bed144276bbee0b4fda41512f27f8e
 Description:  Luci Support for koolddns.
 
 Package: luci-app-libernet-bin
-Version: 1.7
+Version: 1.8
 Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
 Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-libernet-bin
 SourceName: luci-app-libernet-bin
 Section: luci
-SourceDateEpoch: 1641538758
+SourceDateEpoch: 1643030142
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 652135
-Filename: luci-app-libernet-bin_1.7_all.ipk
-Size: 651093
-SHA256sum: e84c8e55291b7933ddbaafdf8827b67e2c25100d7eb03074c0abb327981376ae
+Installed-Size: 653183
+Filename: luci-app-libernet-bin_1.8_all.ipk
+Size: 651709
+SHA256sum: 2326e0c801e70caf68839cf6078cac12926e6321d15b9dfd5a27136c4fb40058
 Description:  LuCI version of Libernet App, this is original version included libernet binaries.
 
 Package: luci-app-libernet-plus
-Version: 1.7
+Version: 1.8
 Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
 Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-libernet-plus
 SourceName: luci-app-libernet-plus
 Section: luci
-SourceDateEpoch: 1641538758
+SourceDateEpoch: 1643030142
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2078090
-Filename: luci-app-libernet-plus_1.7_all.ipk
-Size: 2076366
-SHA256sum: bce9ab1b7d4d06ef37ec766fb69bdcb52381aa7d3f2e563e1203c0d86d5220a1
+Installed-Size: 2080006
+Filename: luci-app-libernet-plus_1.8_all.ipk
+Size: 2076432
+SHA256sum: bbe14b25d3237931cd8e030cbe474f24ba2f20c9ea42326cdf4867b8ccb282fe
 Description:  LuCI version of Libernet, but with some mods and additions.
 
 Package: luci-app-log
@@ -630,20 +630,35 @@ Size: 3630
 SHA256sum: 7d3e28640c2a9b62b3827c14083ec89a95bc8e20e363f3473b79b9093927ab95
 Description:  Configrure modem bands via mmcli utility
 
+Package: luci-app-modemband
+Version: 1.0.1-20220130
+Depends: libc, sms-tool, modemband
+Source: /home/neo/wrt-project/custom-feeds/luci-app-modemband/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1643552427
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2033
+Filename: luci-app-modemband_1.0.1-20220130_all.ipk
+Size: 2848
+SHA256sum: 382583cbecf2a15f7f7485e5a658f3163e53ca7cbcc5ff3a4136a21ea46cd3c1
+Description:  LuCI panel for modemband
+
 Package: luci-app-modeminfo
-Version: 0.2.1-0
+Version: 0.2.2-1
 Depends: libc, comgt, luci-compat
 Source: /home/neo/wrt-project/custom-feeds/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1641490023
+SourceDateEpoch: 1643527673
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 15424
-Filename: luci-app-modeminfo_0.2.1-0_all.ipk
-Size: 16284
-SHA256sum: a184295feb496f32255c851a7d8205faa4b26892dfa880319dbcedcdb9256be4
+Installed-Size: 15929
+Filename: luci-app-modeminfo_0.2.2-1_all.ipk
+Size: 16798
+SHA256sum: 03ed291405f094dcf84f239a9ea4e5097747fb1b0f25f4b43055f880938813e1
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-netdata
@@ -740,18 +755,18 @@ SHA256sum: 2ff1dd5fac5c38537f008fe6db5aa1f98db5f7949b3521744230940f2046ad71
 Description:  LuCI version of OpenSpeedtest.org site.
 
 Package: luci-app-passwall
-Version: 4.46
+Version: 4.48
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, luci-compat, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, brook, chinadns-ng, haproxy, hysteria, kcptun-client, naiveproxy, pdnsd-alt, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan-go, trojan-plus, v2ray-core, v2ray-plugin, xray-core, xray-plugin
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1641821444
+SourceDateEpoch: 1643131544
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1021472
-Filename: luci-app-passwall_4.46_all.ipk
-Size: 1022338
-SHA256sum: 95c1a3af864c993c90d0e53b5d8f9a83d52da0024ea2da07f0118fcbd76d3e0f
+Installed-Size: 1023643
+Filename: luci-app-passwall_4.48_all.ipk
+Size: 1024405
+SHA256sum: 2fdfdf913d8158bf240ee852db5ee3c4c1c7583c02cccc81e71d584c502015bb
 Description:  LuCI support for PassWall
 
 Package: luci-app-poweroff
@@ -770,18 +785,18 @@ SHA256sum: 1744e7b919d7011a588d6a761f51c3598e507b1e98cb805e061315664b441e66
 Description:  LuCI Support of PowerOff Router
 
 Package: luci-app-qbittorrent
-Version: 220107.09510
+Version: 220111.55896
 Depends: libc, qBittorrent-Enhanced-Edition
 Source: /home/neo/wrt-project/custom-feeds/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1641720367
+SourceDateEpoch: 1643450502
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2774
-Filename: luci-app-qbittorrent_220107.09510_all.ipk
-Size: 3677
-SHA256sum: e7e44a00dba047e2f252180357fb16159d52ed98c933d3f65f540b5426a4fa6c
+Installed-Size: 2814
+Filename: luci-app-qbittorrent_220111.55896_all.ipk
+Size: 3715
+SHA256sum: 1cb9a806da0e4d2a1a996599c4fb73371225a59758b10c3f830b4529874a6377
 Description:  qbittorrent-nox for LuCI
 
 Package: luci-app-ramfree
@@ -1092,20 +1107,20 @@ SHA256sum: d84ccda0ddf7be37378aa0526c445aa8536e307d4efefd21e0e85826dc39f1f0
 Description:  LuCI version of Xderm Limit with some additions.
 
 Package: luci-app-xray
-Version: 1.3.0-1
+Version: 1.3.1-1
 Depends: libc, luci-base, xray-core, dnsmasq, ipset, firewall, iptables, iptables-mod-tproxy, ca-bundle
 Source: /home/neo/wrt-project/custom-feeds/luci-app-xray
 SourceName: luci-app-xray
 License: MPLv2
 LicenseFiles: LICENSE
 Section: Custom
-SourceDateEpoch: 1641622507
+SourceDateEpoch: 1643566967
 Maintainer: yichya <mail@yichya.dev>
 Architecture: all
-Installed-Size: 15852
-Filename: luci-app-xray_1.3.0-1_all.ipk
-Size: 16932
-SHA256sum: 3e98e3a7ae469e00045577f09a64a99ca13e0ece07074cb2d40cefdaeb8d5cb8
+Installed-Size: 15860
+Filename: luci-app-xray_1.3.1-1_all.ipk
+Size: 16938
+SHA256sum: 54fc857f6b38324d733275ad53cf3d7c6f4883146f35dbe4b8687556ee7dbb8b
 Description:  LuCI Support for Xray (Client-side Rendered).
 
 Package: luci-app-zerotier
@@ -1211,6 +1226,21 @@ Filename: luci-theme-openmptcprouter_210915.66086_all.ipk
 Size: 79171
 SHA256sum: 95ce6a99d0d64787bcfa0008f19f122ff84e2b6e756a235b4169dee633a80994
 Description:  OpenMPTCProuter Theme (default)
+
+Package: modemband
+Version: 20220118
+Depends: libc, sms-tool
+Source: /home/neo/wrt-project/custom-feeds/luci-app-modemband/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1643552427
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 2184
+Filename: modemband_20220118_all.ipk
+Size: 2967
+SHA256sum: a436f5c6281b2d957d62fabd92a3d80c4aee15a93fa3ea0028103791eccf0d01
+Description:  Setting LTE bands for selected modems
 
 Package: usb-storage
 Version: 1.000-1

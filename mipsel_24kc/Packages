@@ -106,15 +106,15 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.4-1
+Version: 0.9.5-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4893624
-Filename: hysteria_0.9.4-1_mipsel_24kc.ipk
-Size: 4884094
-SHA256sum: 8f18058552210bf4ae4dd66b5c57551dc664dcfb917fdacf1a7cea3284ddcedb
+Installed-Size: 4933709
+Filename: hysteria_0.9.5-1_mipsel_24kc.ipk
+Size: 4923834
+SHA256sum: 2068cb84c92db990854a36390d914ed259431e27d07ff2b4a2be818d0ccfc01b
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version

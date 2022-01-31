@@ -106,15 +106,15 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.4-1
+Version: 0.9.5-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 5197412
-Filename: hysteria_0.9.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5190419
-SHA256sum: bc9b6e90ae8f98a62555991e47aad3416b4695b05ae9fb9f648bfcb235d18a76
+Installed-Size: 5242410
+Filename: hysteria_0.9.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5234833
+SHA256sum: 99f40d7ffbea87d71013e227cd106672988e07067a08f5dc54243439356325c3
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
