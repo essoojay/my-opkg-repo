@@ -277,63 +277,63 @@ SHA256sum: 63b353ec5b4919a41d7f73122143a5bdbd6cb891cc44729f41fcfa63b3ba14fb
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 2680398
-Filename: shadowsocks-rust-sslocal_1.12.5-1_aarch64_cortex-a53.ipk
-Size: 2670149
-SHA256sum: 369303b83366fbf71ee77d9380d0b42f745d3e5ef12b2e2e8dbeb00be28dc2ce
+Installed-Size: 2736943
+Filename: shadowsocks-rust-sslocal_1.13.1-1_aarch64_cortex-a53.ipk
+Size: 2727128
+SHA256sum: 0a843d6cb2cbfeba3495c664a05613951f23b01bed3a9a80d7f6b201f031c048
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 1793926
-Filename: shadowsocks-rust-ssmanager_1.12.5-1_aarch64_cortex-a53.ipk
-Size: 1786911
-SHA256sum: 9eda7e0084fcb8b2265d38385f519e078cfb3efb518bd956c3d94bd6d829482b
+Installed-Size: 1789621
+Filename: shadowsocks-rust-ssmanager_1.13.1-1_aarch64_cortex-a53.ipk
+Size: 1782488
+SHA256sum: 7a19216de6bf1506abaf19ef5ad424f90e8d11d20245fbd73b8893a9824a1e58
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 1734489
-Filename: shadowsocks-rust-ssserver_1.12.5-1_aarch64_cortex-a53.ipk
-Size: 1728034
-SHA256sum: 66383538162495a6773290b237715bdc69180cc252c328238051ab4397ed91e5
+Installed-Size: 1729081
+Filename: shadowsocks-rust-ssserver_1.13.1-1_aarch64_cortex-a53.ipk
+Size: 1721199
+SHA256sum: 88cf1ef01909c367fabbec50fe6cec1ef8caba7c7d130621b7fb3f1fa8142408
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 2855077
-Filename: shadowsocks-rust-ssservice_1.12.5-1_aarch64_cortex-a53.ipk
-Size: 2844482
-SHA256sum: 9924526b222b1a83766ec1ba0ad8f06c185cb85d4739134e6593e11b17e7245f
+Installed-Size: 2902247
+Filename: shadowsocks-rust-ssservice_1.13.1-1_aarch64_cortex-a53.ipk
+Size: 2893557
+SHA256sum: db453bd3b2d12a5be405e16318168e7da6aa81978d9619fa7085897253b19ae7
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 607211
-Filename: shadowsocks-rust-ssurl_1.12.5-1_aarch64_cortex-a53.ipk
-Size: 605870
-SHA256sum: 7448639b7948144d3dfe5a712bd135bfb8b98e13565a78ae20dd3e9cd63d3d77
+Installed-Size: 631586
+Filename: shadowsocks-rust-ssurl_1.13.1-1_aarch64_cortex-a53.ipk
+Size: 630147
+SHA256sum: a9da06ec32e79ecbc61641f9233e3e72eac689563934d7de3bf6e08b2009501f
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -584,14 +584,14 @@ SHA256sum: 14f7fa36b58561c9bb9b8d86134725dda7405cc0aaa2c8c67052d7f61ddb2730
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.2-1
+Version: 1.5.3-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 4833926
-Filename: xray-plugin_1.5.2-1_aarch64_cortex-a53.ipk
-Size: 4819880
-SHA256sum: 44c77a23bf5346f6c0dae773f1f690e3f23bdf665358c7e92a402807bb425421
+Installed-Size: 4836350
+Filename: xray-plugin_1.5.3-1_aarch64_cortex-a53.ipk
+Size: 4821861
+SHA256sum: e42fbbf293d871fc6c775df60f1d912598f8c2b8d90f32c2e3fa21291a4f33c7
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

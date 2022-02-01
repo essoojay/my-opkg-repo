@@ -277,63 +277,63 @@ SHA256sum: 42a463be591fb606394a1cafecab874ef09aef17a1f229d836fe53555f7fc84a
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2940864
-Filename: shadowsocks-rust-sslocal_1.12.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2933409
-SHA256sum: e1c7487dc3e3649621601dd2f8d62590ac15550641d2087275e25a59c37961e9
+Installed-Size: 2993462
+Filename: shadowsocks-rust-sslocal_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2985001
+SHA256sum: 1b048a3624e8c6cf4f9273bef2f6e64fff7437ddf7793b6e8773dc139f3b0fe7
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1908172
-Filename: shadowsocks-rust-ssmanager_1.12.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1902606
-SHA256sum: 19a03c05eecefaf0abb276317f617d1a7111e67f73330838b5c2bd5b56762620
+Installed-Size: 1886682
+Filename: shadowsocks-rust-ssmanager_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1880989
+SHA256sum: c05320a3ed97e7b5965bb8d154fba06a642cb9a3eccb1c8b5bdbc87bd3bd9302
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1846864
-Filename: shadowsocks-rust-ssserver_1.12.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1841251
-SHA256sum: ef81ba17c7f35e2a0c1f75fed5c9f537d4c88ec80084d356cc46d1fa82cd4e3a
+Installed-Size: 1823050
+Filename: shadowsocks-rust-ssserver_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1817128
+SHA256sum: 0f4f6c2ca5fd9d7719b76775cef827b112e3a1591c469a0edcbc5680889cef9c
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3136206
-Filename: shadowsocks-rust-ssservice_1.12.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3128782
-SHA256sum: df178fb8b60f43dd27e44cacb57265cb94e0b1fd8c13ac4d3ab3e4e5e0c5b556
+Installed-Size: 3174343
+Filename: shadowsocks-rust-ssservice_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3166105
+SHA256sum: f14aea3438b22968adad71c46e136e0bd14a312e433d99530f8afb1729b60c12
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 626821
-Filename: shadowsocks-rust-ssurl_1.12.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 626392
-SHA256sum: 232b9cdbb7ab6c4b59d906e9ff9d3d130ebb24eb6cc96563a9289b7f29f8c291
+Installed-Size: 655313
+Filename: shadowsocks-rust-ssurl_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 654491
+SHA256sum: 834304074d0b6f3632a3a0a3d39f434d24173c40a4739d92c231d1daa4015092
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -584,14 +584,14 @@ SHA256sum: edee7210001c92bbceaf5995c99583c723d21c48413a1b94e3002e82850f6f16
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.2-1
+Version: 1.5.3-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 4836855
-Filename: xray-plugin_1.5.2-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 4831269
-SHA256sum: 1a44da926922bbd67589351154e47b8fd95e5bfb609e6175a1b7d44ee3fe3e14
+Installed-Size: 4839844
+Filename: xray-plugin_1.5.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4834550
+SHA256sum: 9a5a387cad729e8415edf8059d5751513becea1aeb8ff0fab879fbd1c4988fa7
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

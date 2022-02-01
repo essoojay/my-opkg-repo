@@ -277,63 +277,63 @@ SHA256sum: f94560710a75d209044df83748a29cb23708eb7ffef8baf5f8559c4b5ae9497a
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2839519
-Filename: shadowsocks-rust-sslocal_1.12.5-1_mipsel_24kc.ipk
-Size: 2840584
-SHA256sum: c3fb2767bd38a5611affd328a358e7c5b14cf88037f4e18b5f6fa6df5fb393fd
+Installed-Size: 2912984
+Filename: shadowsocks-rust-sslocal_1.13.1-1_mipsel_24kc.ipk
+Size: 2914058
+SHA256sum: f01a77a32510cf1c7d5795661df900edb2a5326ba295d39ceb0e6809f9878641
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1906046
-Filename: shadowsocks-rust-ssmanager_1.12.5-1_mipsel_24kc.ipk
-Size: 1906933
-SHA256sum: 4a17b73e5f7db70b4118b876806173751130317bb293d2eecbe20607873fd4a6
+Installed-Size: 1909360
+Filename: shadowsocks-rust-ssmanager_1.13.1-1_mipsel_24kc.ipk
+Size: 1910349
+SHA256sum: b27e77987ff0c9c6b3ecb4b82b5d28898ad670ec4009b055f7d8e1a9fbea22d8
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1837055
-Filename: shadowsocks-rust-ssserver_1.12.5-1_mipsel_24kc.ipk
-Size: 1837956
-SHA256sum: f109b8c432bfb38ab6b0c5321636a84f0765fcb2cb66c8138d2c2f6fb36ae2e4
+Installed-Size: 1836117
+Filename: shadowsocks-rust-ssserver_1.13.1-1_mipsel_24kc.ipk
+Size: 1837085
+SHA256sum: fdc11e0852bf47891f422f215c83c6b6f694687fdf0ea990d5bd0ec6349351ec
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3017373
-Filename: shadowsocks-rust-ssservice_1.12.5-1_mipsel_24kc.ipk
-Size: 3018568
-SHA256sum: a50e6566bf9fb794934b821c62f4e0e87b601a4ca79ec55ae127b11e62b19822
+Installed-Size: 3083351
+Filename: shadowsocks-rust-ssservice_1.13.1-1_mipsel_24kc.ipk
+Size: 3084490
+SHA256sum: 117b37f1cc329ff816da7bb649b4714bfc62703013fa981ea063d79196ee00de
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 627593
-Filename: shadowsocks-rust-ssurl_1.12.5-1_mipsel_24kc.ipk
-Size: 628588
-SHA256sum: 6ff1e6f11c34ebf982bfbf33992c8e7098ef0064beb50038ea9b34be8a56d2ce
+Installed-Size: 663945
+Filename: shadowsocks-rust-ssurl_1.13.1-1_mipsel_24kc.ipk
+Size: 664936
+SHA256sum: 358d51a61998fd031d0cfa4e103cb576f56fb51166bb362c225cd0bb9eab0453
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -584,14 +584,14 @@ SHA256sum: 3ef37c1eb62c093fba7c2cc1e520b6ecf550aa48e4120e7ead3b247a04c463da
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.2-1
+Version: 1.5.3-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 4546907
-Filename: xray-plugin_1.5.2-1_mipsel_24kc.ipk
-Size: 4539128
-SHA256sum: 7eb5c8475f49b81ebfaf8e42b2d1638a0ec43c7b00690904e7630c604857821a
+Installed-Size: 4548722
+Filename: xray-plugin_1.5.3-1_mipsel_24kc.ipk
+Size: 4541339
+SHA256sum: 37f7fefceba590a5016a56872eb828bd7bbe0b981c40e31beac85b00331b2b2b
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

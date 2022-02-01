@@ -365,88 +365,88 @@ SHA256sum: e183092cf6ff3576e72e32035ef14fb6986466df154fded9c7f8ab9d8e955d63
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640359581
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 2680398
-Filename: shadowsocks-rust-sslocal_1.12.5-1_aarch64_cortex-a72.ipk
-Size: 2670149
-SHA256sum: 09aee387ca5d5937aa22dd131cd75f4d3577b8aceea92e0ae0e3267d0c417315
+Installed-Size: 2736943
+Filename: shadowsocks-rust-sslocal_1.13.1-1_aarch64_cortex-a72.ipk
+Size: 2727127
+SHA256sum: 8eaa7dc3e435da36f2e58ec50646952636c736e8db1eacc77524eaf1fe58ac22
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640359581
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 1793926
-Filename: shadowsocks-rust-ssmanager_1.12.5-1_aarch64_cortex-a72.ipk
-Size: 1786912
-SHA256sum: 864704b95eba4191af6232a78daf2c0081105a84959524273187420a7849270f
+Installed-Size: 1789621
+Filename: shadowsocks-rust-ssmanager_1.13.1-1_aarch64_cortex-a72.ipk
+Size: 1782488
+SHA256sum: 5094b428f16085831149ef2b437509c10b883aabcebb24c9ec4f1728aba384c5
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640359581
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 1734489
-Filename: shadowsocks-rust-ssserver_1.12.5-1_aarch64_cortex-a72.ipk
-Size: 1728033
-SHA256sum: fdc6fc49ffb593d056f7403405dc806cfd5246349b678cd108f8465fa6923f18
+Installed-Size: 1729081
+Filename: shadowsocks-rust-ssserver_1.13.1-1_aarch64_cortex-a72.ipk
+Size: 1721200
+SHA256sum: 74e1617cb8bfd1cdd9e8bfff749556f128253bc25c65cfcb74c954842e37d937
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640359581
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 2855077
-Filename: shadowsocks-rust-ssservice_1.12.5-1_aarch64_cortex-a72.ipk
-Size: 2844479
-SHA256sum: 7cd8840f4c5c439d69254299d03ac23185e2226193bce18194e7aaebaecd675e
+Installed-Size: 2902247
+Filename: shadowsocks-rust-ssservice_1.13.1-1_aarch64_cortex-a72.ipk
+Size: 2893557
+SHA256sum: 5043d114c87cfe33a6fbcef4e657aecb89a4a80306d4c23c1f660a5bd38a605f
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640359581
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 607211
-Filename: shadowsocks-rust-ssurl_1.12.5-1_aarch64_cortex-a72.ipk
-Size: 605870
-SHA256sum: 57af303f8a3acf18eef54b771e396a44564fba9bae7cd821824b1294cec0d0d8
+Installed-Size: 631586
+Filename: shadowsocks-rust-ssurl_1.13.1-1_aarch64_cortex-a72.ipk
+Size: 630145
+SHA256sum: d897636cfb05fdec12456ae05ec31ed8769810801401d8cf7ebd4b8b5930f520
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -784,19 +784,19 @@ SHA256sum: 8359d8ce2655523e6c89d95073692d98614be23eb4aa696361618e9025fdcedb
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.2-1
+Version: 1.5.3-1
 Depends: libc, ca-bundle
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/xray-plugin
 SourceName: xray-plugin
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640935584
+SourceDateEpoch: 1643647240
 Maintainer: Tianling Shen <cnsztl@project-openwrt.eu.org>
 Architecture: aarch64_cortex-a72
-Installed-Size: 3170730
-Filename: xray-plugin_1.5.2-1_aarch64_cortex-a72.ipk
-Size: 3172178
-SHA256sum: b157c78d26362dc2fca34b888c740d5a13c0405ce4958117cf502eff830fa813
+Installed-Size: 4836349
+Filename: xray-plugin_1.5.3-1_aarch64_cortex-a72.ipk
+Size: 4822039
+SHA256sum: 9f170b9e3a1f2f7d453909ddeb421891a5482a8dcfc81c576f86f5fd25de44d5
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

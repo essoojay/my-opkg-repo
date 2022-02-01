@@ -277,63 +277,63 @@ SHA256sum: f7862de67ff9ce660519f9d6f03e3fe2aaa6659d02e86cc38bce206f4dc49e1e
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2680398
-Filename: shadowsocks-rust-sslocal_1.12.5-1_aarch64_generic.ipk
-Size: 2670146
-SHA256sum: 5732086e45b87975f4c3905c6d89a6cf345952c034816dab0c8fe83f3bba3ebb
+Installed-Size: 2736943
+Filename: shadowsocks-rust-sslocal_1.13.1-1_aarch64_generic.ipk
+Size: 2727125
+SHA256sum: 9cf9f6f367d80b0279ace750090d7be9a933becebfb14053bf04927d39ab1ab9
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1793926
-Filename: shadowsocks-rust-ssmanager_1.12.5-1_aarch64_generic.ipk
-Size: 1786907
-SHA256sum: 99190203fb13ae3e40cb7233ca60df135ac7aadcdd6705d067de2f3dfbccfc4c
+Installed-Size: 1789621
+Filename: shadowsocks-rust-ssmanager_1.13.1-1_aarch64_generic.ipk
+Size: 1782489
+SHA256sum: b61ffc55e7d90b57f30dcf961b327e2d6557996d173459502149e852a81a3976
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1734489
-Filename: shadowsocks-rust-ssserver_1.12.5-1_aarch64_generic.ipk
-Size: 1728033
-SHA256sum: 28d76273ee264f4c86bc417a86e5f5bb0e7d6205a4073d5e0755413ed1d89b32
+Installed-Size: 1729081
+Filename: shadowsocks-rust-ssserver_1.13.1-1_aarch64_generic.ipk
+Size: 1721197
+SHA256sum: 195b77f918197b5838b400f8c549d5b79dc3f058b14d73ee7a6d72f965e16b33
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2855077
-Filename: shadowsocks-rust-ssservice_1.12.5-1_aarch64_generic.ipk
-Size: 2844477
-SHA256sum: dc6a81644b2c0afd7a456d55b9b53cf408198de9382209f8e48c320a478ab647
+Installed-Size: 2902247
+Filename: shadowsocks-rust-ssservice_1.13.1-1_aarch64_generic.ipk
+Size: 2893555
+SHA256sum: 1a7f792a9b29410d96e2c3e78bbe153b72f2a1a23f5d0cfb38a247550c42701c
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.12.5-1
+Version: 1.13.1-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 607211
-Filename: shadowsocks-rust-ssurl_1.12.5-1_aarch64_generic.ipk
-Size: 605867
-SHA256sum: dae0d32bb96724e6f1f447f93166d40cf0d0387d65dd060c7e0f4828acfc0e7e
+Installed-Size: 631586
+Filename: shadowsocks-rust-ssurl_1.13.1-1_aarch64_generic.ipk
+Size: 630144
+SHA256sum: df812f472da594c4634b7f1e05e0a5f8cdf55d203b92475bda05f983a6fa67f6
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -584,14 +584,14 @@ SHA256sum: 6359703e0f6d568609f60b586100a8c4f075beec4e151ca1ae31dedb3e0598c2
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.2-1
+Version: 1.5.3-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 4833945
-Filename: xray-plugin_1.5.2-1_aarch64_generic.ipk
-Size: 4819874
-SHA256sum: fc3f69907bd3eb797916db6040aa76110b85dd8822521ecf398e99810df47f9e
+Installed-Size: 4836349
+Filename: xray-plugin_1.5.3-1_aarch64_generic.ipk
+Size: 4822037
+SHA256sum: f0e52f53a5600c945549e77b8899c85beb4684e2da5303df84eb2fbb4cd63fac
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 

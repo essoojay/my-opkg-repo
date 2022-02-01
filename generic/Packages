@@ -535,14 +535,14 @@ SHA256sum: 0c91390f5aaa5da5cb324a2cc4397dd8a05c9f47bb301ebec8c16f619bf26016
 Description:  LuCI luci-app-oled app
 
 Package: luci-app-openclash
-Version: 0.44.09-beta
+Version: 0.44.16-beta
 Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun
 Section: opt
 Architecture: all
-Installed-Size: 2257792
-Filename: luci-app-openclash_0.44.09-beta_all.ipk
-Size: 2240974
-SHA256sum: a4422cd0c7adc1cea1b2ea8aecd27263e01314de9aec120819fdf29041efcf72
+Installed-Size: 2261378
+Filename: luci-app-openclash_0.44.16-beta_all.ipk
+Size: 2244683
+SHA256sum: 6cdbc95995957c91c9f893d4c7e431eb26891d22a115fbf55003a85678c1e6f2
 Description:  A LuCI support for clash
 
 Package: luci-app-openspeedtest
