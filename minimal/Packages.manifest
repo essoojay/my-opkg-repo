@@ -4,28 +4,28 @@ Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, smartdns, core
 Source: /home/neo/wrt-project/custom-feeds/openwrt-bypass/luci-app-bypass
 SourceName: luci-app-bypass
 Section: luci
-SourceDateEpoch: 1642918866
+SourceDateEpoch: 1644306164
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 2646710
+Installed-Size: 2646756
 Filename: luci-app-bypass_1.2_all.ipk
-Size: 2465161
-SHA256sum: 0a8adce665d03773c7e9be41b73e99b84d110f80467c32c9d16a4db2638a1722
+Size: 2465347
+SHA256sum: ff4f9661c9dfa025f1c5c2d6cd2ace2abef117a359033fbcf10be043948a5adc
 Description:  SS/SSR/Xray/Trojan/Trojan-Go/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-app-passwall
-Version: 4.48
-Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, luci-compat, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, chinadns-ng, pdnsd-alt
+Version: 4.49
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dnsmasq-full, luci-compat, dns2socks, ipset, ip-full, ipt2socks, iptables-mod-tproxy, iptables-mod-iprange, libuci-lua, lua, luci-lib-jsonc, microsocks, tcping, resolveip, unzip, chinadns-ng, pdnsd-alt, ip6tables-mod-nat
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1643131544
+SourceDateEpoch: 1644826814
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1023643
-Filename: luci-app-passwall_4.48_all.ipk
-Size: 1024291
-SHA256sum: a0edfae3e958bce3e129c300c7630259e14118a66a4d9da2323dd037c8c383ac
+Installed-Size: 1023535
+Filename: luci-app-passwall_4.49_all.ipk
+Size: 1024274
+SHA256sum: e5deed8f2e7cac3da5c0271099a234cdace4935df915fe15337fb71212cac70b
 Description:  LuCI support for PassWall
 
 Package: luci-app-ssr-plus

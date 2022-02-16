@@ -145,19 +145,19 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.5-1
+Version: 0.9.6-1
 Depends: libc, ca-bundle
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1643131544
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 5327535
-Filename: hysteria_0.9.5-1_i386_pentium4.ipk
-Size: 5318823
-SHA256sum: 7958115dc253e78092550cc548696b7de968e18103768209e3a6512af79f3ff7
+Installed-Size: 5334552
+Filename: hysteria_0.9.6-1_i386_pentium4.ipk
+Size: 5325754
+SHA256sum: 0952d24bc08a1535f7540ebcd7f85ae2c9b83e7d6ef681161ded4650604650dd
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -211,24 +211,61 @@ Size: 5934
 SHA256sum: 03a76aba2224168c22e8204a97570f6f7ca63b7845dd91578348ba803c2ace26
 Description:  microsocks is a Tiny Proxy in C.
 
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/neo/wrt-project/custom-feeds/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1644751973
+Architecture: i386_pentium4
+Installed-Size: 546016
+Filename: mrtg_2.17.7-2_i386_pentium4.ipk
+Size: 547007
+SHA256sum: d5d9969e378a29bcabc12668098ca32e4aae7329ff1d269d871b9abd210a9fff
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
 Package: naiveproxy
-Version: 97.0.4692.71-1-1
+Version: 98.0.4758.80-1-1
 Depends: libc, libatomic1
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/naiveproxy
 SourceName: naiveproxy
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1641657695
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 2555120
-Filename: naiveproxy_97.0.4692.71-1-1_i386_pentium4.ipk
-Size: 2548673
-SHA256sum: 413fdf88de11015635e405fd3c9444fb6b26304e5cff756d2b50ca7f0541100d
+Installed-Size: 2582577
+Filename: naiveproxy_98.0.4758.80-1-1_i386_pentium4.ipk
+Size: 2575653
+SHA256sum: 7a41bdb1d9e1db07e224e7642db9e626832171dacdb63b232d4906c643c40dd0
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: /home/neo/wrt-project/custom-feeds/nload
+SourceName: nload
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1644751973
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: i386_pentium4
+Installed-Size: 37055
+Filename: nload_0.7.4-1_i386_pentium4.ipk
+Size: 38032
+SHA256sum: 01c8233fa080044ee8ac13937726af15c2969bed3aa4b2188c1a7d6e450943ad
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: pdnsd-alt
 Version: 1.2.9b-par-2
@@ -249,6 +286,20 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  pdnsd can be used with applications that do dns lookups, eg on startup, and
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1644751973
+Architecture: i386_pentium4
+Installed-Size: 1553
+Filename: pingcontrol_1-0_i386_pentium4.ipk
+Size: 2315
+SHA256sum: 76f81ba0e35e08f97b64d714bf94aff0300794da88d910adb34fe2a805d8b5d4
+Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qBittorrent-Enhanced-Edition
 Version: 4.4.0.10-1
@@ -365,88 +416,88 @@ SHA256sum: 6edf046a4fe1de60971966e3c65a9e1fcfacf7558ec5ba44d3f3eb6a0009771f
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 2832385
-Filename: shadowsocks-rust-sslocal_1.13.1-1_i386_pentium4.ipk
-Size: 2825628
-SHA256sum: 12d90fb7412bd995195b6874987d769fea9858923304d9546ec146905dcff405
+Installed-Size: 2895343
+Filename: shadowsocks-rust-sslocal_1.13.2-1_i386_pentium4.ipk
+Size: 2889157
+SHA256sum: 51533c8c556029bf04798001d4ef31aa3681bc0070747f9521d4ea2165fc066b
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 1884632
-Filename: shadowsocks-rust-ssmanager_1.13.1-1_i386_pentium4.ipk
-Size: 1880304
-SHA256sum: 38540947d75bdb4644b59f37e78a1780a42bd19adf9293933386a4bf8cca7fc0
+Installed-Size: 1876348
+Filename: shadowsocks-rust-ssmanager_1.13.2-1_i386_pentium4.ipk
+Size: 1872449
+SHA256sum: ac60b56931319020a3b87b41804cb5629e6b1dc15ce3418f956df43c3c40a202
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 1823063
-Filename: shadowsocks-rust-ssserver_1.13.1-1_i386_pentium4.ipk
-Size: 1818648
-SHA256sum: 08ae01b3d1e0455fea567a8338603a2f061854fda2f6a53e680e014806145627
+Installed-Size: 1814166
+Filename: shadowsocks-rust-ssserver_1.13.2-1_i386_pentium4.ipk
+Size: 1810024
+SHA256sum: 839a1cc4d89e55a8e4925b205d52bf95387e0da83e9d1edb9c0420756c2b9e02
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 3002938
-Filename: shadowsocks-rust-ssservice_1.13.1-1_i386_pentium4.ipk
-Size: 2995629
-SHA256sum: 24a63baba52679cd99475d8662076e358708331c5cc5edf603351640524a1a03
+Installed-Size: 3065926
+Filename: shadowsocks-rust-ssservice_1.13.2-1_i386_pentium4.ipk
+Size: 3058297
+SHA256sum: f7d37d365a5eaf104329625040cba83f9bfe1be29ab6750b9cd5617d8b3b9d0b
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 684038
-Filename: shadowsocks-rust-ssurl_1.13.1-1_i386_pentium4.ipk
-Size: 683520
-SHA256sum: 90389f99079c5a683699c13e10756fbac89d51d52e1ab4dc48be5d52d3013415
+Installed-Size: 676033
+Filename: shadowsocks-rust-ssurl_1.13.2-1_i386_pentium4.ipk
+Size: 675684
+SHA256sum: 4e92a487747ebadf9fbad58957850635196c3d4f1fad935605e56a54cf9e4efc
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -749,20 +800,20 @@ SHA256sum: 09ad4edeab0b08f5467b5eda471acd371f8c2e8c486befd548b2d4776be56b05
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.5-1
+Version: 1.5.6.2-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
 Source: /home/neo/wrt-project/custom-feeds/v2raya
 SourceName: v2raya
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640341527
+SourceDateEpoch: 1644751973
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: i386_pentium4
-Installed-Size: 8928369
-Filename: v2raya_1.5.5-1_i386_pentium4.ipk
-Size: 8907405
-SHA256sum: dd7e151ad277815d12ffc779dcd4ed8688b8edd2f5e889b502a563e214c83363
+Installed-Size: 8872502
+Filename: v2raya_1.5.6.2-1_i386_pentium4.ipk
+Size: 8849916
+SHA256sum: 92eb34bc34fb97e82f18a0764609f078aa8c39c969c5ef5a86684420f576d87f
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 

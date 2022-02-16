@@ -106,15 +106,15 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.5-1
+Version: 0.9.6-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 5242410
-Filename: hysteria_0.9.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 5234833
-SHA256sum: 99f40d7ffbea87d71013e227cd106672988e07067a08f5dc54243439356325c3
+Installed-Size: 5249588
+Filename: hysteria_0.9.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5242179
+SHA256sum: 158499511cd7891f464fd104fcb55ffcee9a173178af8bb316406ad655c86f53
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -156,19 +156,48 @@ Size: 5784
 SHA256sum: e5ad0e1f8d200e7d031b4f71ebd2948b5e70466cd4c405f6bc462141ab2eb6aa
 Description:  microsocks is a Tiny Proxy in C.
 
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 548146
+Filename: mrtg_2.17.7-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 549077
+SHA256sum: a27d2968792bda6237617dc61a570b0856a62502a4f4d14758aa8ef5048c2c15
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
 Package: naiveproxy
-Version: 97.0.4692.71-1-1
+Version: 98.0.4758.80-1-1
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2211318
-Filename: naiveproxy_97.0.4692.71-1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2204551
-SHA256sum: 3115565fbaeb161536cf0f19552ddd487a31060310cb24f45683675f44c1b5e3
+Installed-Size: 2232993
+Filename: naiveproxy_98.0.4758.80-1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2226349
+SHA256sum: 363f9bd9d1dbeaa85841ef6391d2c3a51c75bf026b6bdc66594c6d68fb59ee30
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+License: LICENSE
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33729
+Filename: nload_0.7.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34689
+SHA256sum: 78e84533d8176d8a9a671a36e32b6dcae0a0507e74ad05f5418550c73224a623
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: pdnsd-alt
 Version: 1.2.9b-par-2
@@ -186,6 +215,17 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  pdnsd can be used with applications that do dns lookups, eg on startup, and
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1553
+Filename: pingcontrol_1-0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2325
+SHA256sum: b6f355eb180f6b3cdb6ece8d789ba1fd756ca1f23b8a0e371ea26b08dbdfb145
+Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qBittorrent-Enhanced-Edition
 Version: 4.4.0.10-1
@@ -277,63 +317,63 @@ SHA256sum: 42a463be591fb606394a1cafecab874ef09aef17a1f229d836fe53555f7fc84a
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 2993462
-Filename: shadowsocks-rust-sslocal_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2985001
-SHA256sum: 1b048a3624e8c6cf4f9273bef2f6e64fff7437ddf7793b6e8773dc139f3b0fe7
+Installed-Size: 3116439
+Filename: shadowsocks-rust-sslocal_1.13.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3108660
+SHA256sum: 9c5655e310d960794687cdbe498445cfa43262d835e2bca28d3960244a5caac4
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1886682
-Filename: shadowsocks-rust-ssmanager_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1880989
-SHA256sum: c05320a3ed97e7b5965bb8d154fba06a642cb9a3eccb1c8b5bdbc87bd3bd9302
+Installed-Size: 1881227
+Filename: shadowsocks-rust-ssmanager_1.13.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1876379
+SHA256sum: 5d4eb01aa3b924f635d66afd58bdcc52fb9bb567bc3c32280ba204864d365e0a
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1823050
-Filename: shadowsocks-rust-ssserver_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1817128
-SHA256sum: 0f4f6c2ca5fd9d7719b76775cef827b112e3a1591c469a0edcbc5680889cef9c
+Installed-Size: 1816200
+Filename: shadowsocks-rust-ssserver_1.13.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1810651
+SHA256sum: 77a916b7da7f4ec97a2c01517d7f959e41b8ce8ffd43fa004ac578ece046cc61
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3174343
-Filename: shadowsocks-rust-ssservice_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 3166105
-SHA256sum: f14aea3438b22968adad71c46e136e0bd14a312e433d99530f8afb1729b60c12
+Installed-Size: 3298390
+Filename: shadowsocks-rust-ssservice_1.13.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3290583
+SHA256sum: 5cdb60b56bc738895df221cd445bf63e694a447e86b13c15ee5c22e0c6e117c4
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 655313
-Filename: shadowsocks-rust-ssurl_1.13.1-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 654491
-SHA256sum: 834304074d0b6f3632a3a0a3d39f434d24173c40a4739d92c231d1daa4015092
+Installed-Size: 646176
+Filename: shadowsocks-rust-ssurl_1.13.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 645423
+SHA256sum: 27af4007f2bf8c6fc9827ed4f01675b14e70b29a73913f90e0a032d43e26ee25
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -559,15 +599,15 @@ SHA256sum: b79f963385c710b25261b9ab01415fa5771905def5f175b0b671abcff4ce3307
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.5-1
+Version: 1.5.6.2-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
 License: AGPL-3.0-only
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 8852543
-Filename: v2raya_1.5.5-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 8834965
-SHA256sum: 16caf08b0ed23392957b357b53101a581b6960ddaded1b00097929b8b9036288
+Installed-Size: 8790980
+Filename: v2raya_1.5.6.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8767895
+SHA256sum: a7a01c2ce7f947263c4919e2953083ddad59aa4dc9721c5cb4c67c923e95981f
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 

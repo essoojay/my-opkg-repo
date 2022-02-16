@@ -106,15 +106,15 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.5-1
+Version: 0.9.6-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 5216684
-Filename: hysteria_0.9.5-1_aarch64_generic.ipk
-Size: 5198750
-SHA256sum: f41c9d946a2ca4909eba50e2dc0dadfd9314d7520e6adf9f7b3425088b606926
+Installed-Size: 5221754
+Filename: hysteria_0.9.6-1_aarch64_generic.ipk
+Size: 5203762
+SHA256sum: 6948fc6a9fc32f43e1daeb1a86918ebc28cbbab5c35eb509d7b8f0ce5787d146
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -156,19 +156,48 @@ Size: 6529
 SHA256sum: 3273fefb786eaa6a4c739f1e303555bf950669afd61e44b1f24de557ce076b67
 Description:  microsocks is a Tiny Proxy in C.
 
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 546955
+Filename: mrtg_2.17.7-2_aarch64_generic.ipk
+Size: 547701
+SHA256sum: e03d0cd8cd562f0a4b16bd5853756f3aed60650cd52b5e76f197c88041e73e37
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
 Package: naiveproxy
-Version: 97.0.4692.71-1-1
+Version: 98.0.4758.80-1-1
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2393110
-Filename: naiveproxy_97.0.4692.71-1-1_aarch64_generic.ipk
-Size: 2389664
-SHA256sum: 12799c71868f9805ac02b3aa40404a607997acf02755db54e2eed6b2d86f8be6
+Installed-Size: 2395819
+Filename: naiveproxy_98.0.4758.80-1-1_aarch64_generic.ipk
+Size: 2392720
+SHA256sum: 379ac7445ceeb238440aba89f7260b05c20160782c148e71e8e5f5de09a00970
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+License: LICENSE
+Section: net
+Architecture: aarch64_generic
+Installed-Size: 38654
+Filename: nload_0.7.4-1_aarch64_generic.ipk
+Size: 39572
+SHA256sum: 09b11aa512fef01dee88ef65745acb80d7e444c6085a93ca4eda40e0fa98acb6
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: pdnsd-alt
 Version: 1.2.9b-par-2
@@ -186,6 +215,17 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  pdnsd can be used with applications that do dns lookups, eg on startup, and
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Section: utils
+Architecture: aarch64_generic
+Installed-Size: 1553
+Filename: pingcontrol_1-0_aarch64_generic.ipk
+Size: 2316
+SHA256sum: 3f2b97431f6883d08502583be437150d64af694a93a1968996ea2b6c0fb5d9b2
+Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qBittorrent-Enhanced-Edition
 Version: 4.4.0.10-1
@@ -277,63 +317,63 @@ SHA256sum: f7862de67ff9ce660519f9d6f03e3fe2aaa6659d02e86cc38bce206f4dc49e1e
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2736943
-Filename: shadowsocks-rust-sslocal_1.13.1-1_aarch64_generic.ipk
-Size: 2727125
-SHA256sum: 9cf9f6f367d80b0279ace750090d7be9a933becebfb14053bf04927d39ab1ab9
+Installed-Size: 2806111
+Filename: shadowsocks-rust-sslocal_1.13.2-1_aarch64_generic.ipk
+Size: 2796435
+SHA256sum: b99a80f5d0adcc2263dc1480e1a4b0f0ce14a145d5228a6296ff9df1e59c1a02
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1789621
-Filename: shadowsocks-rust-ssmanager_1.13.1-1_aarch64_generic.ipk
-Size: 1782489
-SHA256sum: b61ffc55e7d90b57f30dcf961b327e2d6557996d173459502149e852a81a3976
+Installed-Size: 1777495
+Filename: shadowsocks-rust-ssmanager_1.13.2-1_aarch64_generic.ipk
+Size: 1770431
+SHA256sum: d1af31fe86f3a6905044c1eadc596f2b36260f5addaa99774aa49f06043cdf0c
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1729081
-Filename: shadowsocks-rust-ssserver_1.13.1-1_aarch64_generic.ipk
-Size: 1721197
-SHA256sum: 195b77f918197b5838b400f8c549d5b79dc3f058b14d73ee7a6d72f965e16b33
+Installed-Size: 1718651
+Filename: shadowsocks-rust-ssserver_1.13.2-1_aarch64_generic.ipk
+Size: 1711650
+SHA256sum: 2f27c85c359b32a529066de5784505fb843378e531d9ac58a4fe257a0c0d9c9e
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 2902247
-Filename: shadowsocks-rust-ssservice_1.13.1-1_aarch64_generic.ipk
-Size: 2893555
-SHA256sum: 1a7f792a9b29410d96e2c3e78bbe153b72f2a1a23f5d0cfb38a247550c42701c
+Installed-Size: 2967680
+Filename: shadowsocks-rust-ssservice_1.13.2-1_aarch64_generic.ipk
+Size: 2957218
+SHA256sum: ade5cdce6c2d298c51619279d8f3c31750d3b519691caaa5928644236db0519b
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 631586
-Filename: shadowsocks-rust-ssurl_1.13.1-1_aarch64_generic.ipk
-Size: 630144
-SHA256sum: df812f472da594c4634b7f1e05e0a5f8cdf55d203b92475bda05f983a6fa67f6
+Installed-Size: 619933
+Filename: shadowsocks-rust-ssurl_1.13.2-1_aarch64_generic.ipk
+Size: 618455
+SHA256sum: 9cad55508154b2f81c5f850c8ed0130ebbd09582b08e0c5e4181aa20477ef443
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -559,15 +599,15 @@ SHA256sum: a608960577ed99be2ac0bd94e787df54e7360b342adeac2c5f3a69f5d3dffa1f
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.5-1
+Version: 1.5.6.2-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
 License: AGPL-3.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 8820143
-Filename: v2raya_1.5.5-1_aarch64_generic.ipk
-Size: 8789149
-SHA256sum: b65636957996f395d9a85b6c3b2c14b2c2d4393107cb6af8ad38ca4313da47db
+Installed-Size: 8766268
+Filename: v2raya_1.5.6.2-1_aarch64_generic.ipk
+Size: 8733631
+SHA256sum: 4b0dacc9239fcbf2b6d2a3a2ea8611fd8ca1dc819d590b8025c9dee964fe1eaa
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 

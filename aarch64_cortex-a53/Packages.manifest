@@ -145,19 +145,19 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: hysteria
-Version: 0.9.5-1
+Version: 0.9.6-1
 Depends: libc, ca-bundle
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/hysteria
 SourceName: hysteria
 License: MIT
 Section: net
-SourceDateEpoch: 1643131544
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 5216206
-Filename: hysteria_0.9.5-1_aarch64_cortex-a53.ipk
-Size: 5198271
-SHA256sum: 0ce17d4dcf107e67b51944734b7d193017691e08d08da68a5ba27ea18da69007
+Installed-Size: 5221878
+Filename: hysteria_0.9.6-1_aarch64_cortex-a53.ipk
+Size: 5203858
+SHA256sum: 2f7a6987b5467a61f26e9ce6b686120b447b689bf5936ea434041994af0865cc
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -211,24 +211,61 @@ Size: 6514
 SHA256sum: f63dd02ed7d649ce76c3f34bd26344b7c9580b77f2f5f97acdd59ed40700a562
 Description:  microsocks is a Tiny Proxy in C.
 
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/neo/wrt-project/custom-feeds/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1644751973
+Architecture: aarch64_cortex-a53
+Installed-Size: 546936
+Filename: mrtg_2.17.7-2_aarch64_cortex-a53.ipk
+Size: 548007
+SHA256sum: 67e21055b75e4f497b40b3f486984eab3ff43d69432bc5c4f4a5d2d005d652dd
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
 Package: naiveproxy
-Version: 97.0.4692.71-1-1
+Version: 98.0.4758.80-1-1
 Depends: libc, libatomic1
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/naiveproxy
 SourceName: naiveproxy
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1641821444
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 2393108
-Filename: naiveproxy_97.0.4692.71-1-1_aarch64_cortex-a53.ipk
-Size: 2389668
-SHA256sum: 1c960d4377ca13626392bbb94bdf35cfa014ba27b27d5e3d89c3c5ba538c6b30
+Installed-Size: 2395820
+Filename: naiveproxy_98.0.4758.80-1-1_aarch64_cortex-a53.ipk
+Size: 2392689
+SHA256sum: 4ab82b293762a0b6bb45c062d523a5bcb90e15c1960b8eea60b0d1c810ade97e
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: /home/neo/wrt-project/custom-feeds/nload
+SourceName: nload
+License: LICENSE
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1644751973
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a53
+Installed-Size: 38568
+Filename: nload_0.7.4-1_aarch64_cortex-a53.ipk
+Size: 39492
+SHA256sum: 140477ab6155dfacc8bff8ea2779261308a3c967ee5358095d113051e6c77ecc
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: pdnsd-alt
 Version: 1.2.9b-par-2
@@ -249,6 +286,20 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  pdnsd can be used with applications that do dns lookups, eg on startup, and
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1644751973
+Architecture: aarch64_cortex-a53
+Installed-Size: 1553
+Filename: pingcontrol_1-0_aarch64_cortex-a53.ipk
+Size: 2317
+SHA256sum: 51e7bc07a83836de56991e6e8e54f7965c6a147543666af59d5ee64164d1ff79
+Description:  This package contains a utility for managing the interface using ping requests.
 
 Package: qBittorrent-Enhanced-Edition
 Version: 4.4.0.10-1
@@ -365,88 +416,88 @@ SHA256sum: 63b353ec5b4919a41d7f73122143a5bdbd6cb891cc44729f41fcfa63b3ba14fb
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 2736943
-Filename: shadowsocks-rust-sslocal_1.13.1-1_aarch64_cortex-a53.ipk
-Size: 2727128
-SHA256sum: 0a843d6cb2cbfeba3495c664a05613951f23b01bed3a9a80d7f6b201f031c048
+Installed-Size: 2806111
+Filename: shadowsocks-rust-sslocal_1.13.2-1_aarch64_cortex-a53.ipk
+Size: 2796440
+SHA256sum: 7c21280b7bc2eae1ac80f30e7ffc39005116dfabcfb1da2920c2afaf730fbb9e
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1789621
-Filename: shadowsocks-rust-ssmanager_1.13.1-1_aarch64_cortex-a53.ipk
-Size: 1782488
-SHA256sum: 7a19216de6bf1506abaf19ef5ad424f90e8d11d20245fbd73b8893a9824a1e58
+Installed-Size: 1777495
+Filename: shadowsocks-rust-ssmanager_1.13.2-1_aarch64_cortex-a53.ipk
+Size: 1770438
+SHA256sum: 7e6e319c8d2a9132d7fee7f6125526af09eb9d2a4b1f720de5fd3c14cf2ac765
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1729081
-Filename: shadowsocks-rust-ssserver_1.13.1-1_aarch64_cortex-a53.ipk
-Size: 1721199
-SHA256sum: 88cf1ef01909c367fabbec50fe6cec1ef8caba7c7d130621b7fb3f1fa8142408
+Installed-Size: 1718651
+Filename: shadowsocks-rust-ssserver_1.13.2-1_aarch64_cortex-a53.ipk
+Size: 1711653
+SHA256sum: c44ff2db973946a1877e16014f2076a8cbb225a9e295e1bad16fe78279175347
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 2902247
-Filename: shadowsocks-rust-ssservice_1.13.1-1_aarch64_cortex-a53.ipk
-Size: 2893557
-SHA256sum: db453bd3b2d12a5be405e16318168e7da6aa81978d9619fa7085897253b19ae7
+Installed-Size: 2967680
+Filename: shadowsocks-rust-ssservice_1.13.2-1_aarch64_cortex-a53.ipk
+Size: 2957222
+SHA256sum: 29406ca25626bc03bf8b2fde3b28431fb0c210ae0f128570afc0604bb9a3e032
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
-Version: 1.13.1-1
+Version: 1.13.2-1
 Depends: libc
 Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/shadowsocks-rust
 SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1643647240
+SourceDateEpoch: 1644826814
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 631586
-Filename: shadowsocks-rust-ssurl_1.13.1-1_aarch64_cortex-a53.ipk
-Size: 630147
-SHA256sum: a9da06ec32e79ecbc61641f9233e3e72eac689563934d7de3bf6e08b2009501f
+Installed-Size: 619933
+Filename: shadowsocks-rust-ssurl_1.13.2-1_aarch64_cortex-a53.ipk
+Size: 618458
+SHA256sum: 6d77a882a41c8d93e75f2590b5d4f69951e50a4387446c9c0de77dff1e600101
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -749,20 +800,20 @@ SHA256sum: 8ea74306a6683f740290e764d5008fe1b637b5fc7cd6fe399b49a4564e4b9c65
 Description:  SIP003 plugin for shadowsocks, based on v2ray
 
 Package: v2raya
-Version: 1.5.5-1
+Version: 1.5.6.2-1
 Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
 Source: /home/neo/wrt-project/custom-feeds/v2raya
 SourceName: v2raya
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1640341527
+SourceDateEpoch: 1644751973
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 8820092
-Filename: v2raya_1.5.5-1_aarch64_cortex-a53.ipk
-Size: 8789612
-SHA256sum: a15237f226ae34e91f29aaa7db6953bb6ae2641346fec7551b8f1c7d34341566
+Installed-Size: 8766258
+Filename: v2raya_1.5.6.2-1_aarch64_cortex-a53.ipk
+Size: 8733234
+SHA256sum: 7aa81f6e903d0aa5609ead3bda365cafe651355424d646228981bab7d9c37c02
 Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
  compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
